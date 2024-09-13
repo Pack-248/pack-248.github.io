@@ -1,8 +1,8 @@
 import * as React from 'react'
-import { Link } from 'gatsby'
+//import { Link } from 'gatsby'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { StaticImage } from "gatsby-plugin-image"
 
 library.add(fab)

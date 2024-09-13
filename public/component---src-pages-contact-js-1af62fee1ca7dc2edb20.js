@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkcub_scout_pack_248=self.webpackChunkcub_scout_pack_248||[]).push([[501],{5791:function(t,e,c){c.r(e),c.d(e,{Head:function(){return u}});var a=c(7294),n=c(9392);const u=()=>a.createElement("title",null,"Pack 248 - Contact Us");e.default=()=>a.createElement(n.Z,{pageTitle:"Contact"})}}]);
+//# sourceMappingURL=component---src-pages-contact-js-1af62fee1ca7dc2edb20.js.map

@@ -1,41 +1,36 @@
 import React, { useEffect, useState } from 'react';
-import { gapi } from 'gapi-script';
 import { faCalendar } from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import dayjs from 'dayjs';
+import axios from 'axios';
 //import CreateEvent from './addtocalendar';
 //import AddToCalendar from 'react-add-to-calendar';
 
 const UpcomingEvents = ({pageTitle}) => {
     const [events, setEvents] = useState([]);
-    const calendarID = 'pack248mi@gmail.com';//process.env.REACT_APP_CALENDAR_ID
-    const apiKey = 'AIzaSyBdFOlcZwF8lmll4J2MP2tz3noHx1QSaPI';//process.env.REACT_APP_GOOGLE_API_KEY
-    //const token = 'ya29.a0AcM612xtI4wL2kVFkslXkS-AHqVqC4SueE--hU6AKy83RmkJTannbNiHUbOBDgVzOuyxaWpDb4lii0U1ExHUEkSS2eLqx-_Y1JBbqxU7UUKKCrKIFn3n8akQ5alR0B_Zf4sEl9_phx4m_EJATsfnek7tWo566FPnaSqmriUHaCgYKAVUSARISFQHGX2Miylw_SxmovvScqAk0v6mw7g0175';
-    const clientId = '74126064444-dtsimjjd8eh19p0kgvajhk9lfjd8h183.apps.googleusercontent.com';
+    const calendarID = process.env.GATSBY_APP_CALENDAR_ID;
+    const apiKey = process.env.GATSBY_APP_GOOGLE_API_KEY;
+
     useEffect(() => {
-        const initClient = () => {
-            gapi.client.init({
-                apiKey: `${apiKey}`,
-                clientId: `${clientId}`,
-                discoveryDocs: ['https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest'],
-                scope: 'https://www.googleapis.com/auth/calendar.readonly',
-            }).then(() => {
-                gapi.client.calendar.events.list({
-                calendarId: `${calendarID}`,
-                timeMin: (new Date()).toISOString(),
-                showDeleted: false,
-                singleEvents: true,
-                maxResults: 10,
-                orderBy: 'startTime',
-                }).then(response => {
-                const events = response.result.items;
-                console.log(events);
-                setEvents(events);
+        const fetchEvents = async () => {
+            try {
+                const response = await axios.get(`https://content.googleapis.com/calendar/v3/calendars/${calendarID}/events`, {
+                params: {
+                    key: `${apiKey}`,
+                    timeMin: (new Date()).toISOString(),
+                    maxResults: 10,
+                    showDeleted: false,
+                    singleEvents: true,
+                    orderBy: 'startTime',
+                },
                 });
-            });
-        };
-        gapi.load('client:auth2', initClient);
-    }, []);
+                setEvents(response.data.items);
+            } catch (error) {
+                console.error('Error fetching events', error);
+            }
+            };
+            fetchEvents();
+        }, [apiKey,calendarID]);
 
     return (
         <section className=" py-4 h-auto w-full">
