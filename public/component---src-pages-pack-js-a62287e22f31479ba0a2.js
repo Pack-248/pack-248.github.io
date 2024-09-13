@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkcub_scout_pack_248=self.webpackChunkcub_scout_pack_248||[]).push([[540],{8631:function(e,t,c){c.r(t),c.d(t,{Head:function(){return l}});var a=c(7294),n=c(4713);const l=()=>a.createElement("title",null,"Pack 248 - Pack Info");t.default=()=>a.createElement(n.Z,{pageTitle:"Pack"},a.createElement("p",null,"I'm making this by following the Gatsby Tutorial."))}}]);
+//# sourceMappingURL=component---src-pages-pack-js-a62287e22f31479ba0a2.js.map
