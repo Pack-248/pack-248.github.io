@@ -3,8 +3,6 @@ import { faCalendar } from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import dayjs from 'dayjs';
 import axios from 'axios';
-//import CreateEvent from './addtocalendar';
-//import AddToCalendar from 'react-add-to-calendar';
 
 const UpcomingEvents = ({pageTitle}) => {
     const [events, setEvents] = useState([]);
