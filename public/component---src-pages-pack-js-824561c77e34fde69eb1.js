@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkcub_scout_pack_248=self.webpackChunkcub_scout_pack_248||[]).push([[540],{8631:function(e,c,t){t.r(c),t.d(c,{Head:function(){return n}});var a=t(7294),u=t(9392);const n=()=>a.createElement("title",null,"Pack 248 - Pack Info");c.default=()=>a.createElement(u.Z,{pageTitle:"Pack"})}}]);
-//# sourceMappingURL=component---src-pages-pack-js-824561c77e34fde69eb1.js.map

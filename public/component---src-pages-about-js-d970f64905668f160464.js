@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkcub_scout_pack_248=self.webpackChunkcub_scout_pack_248||[]).push([[682],{5465:function(e,t,c){c.r(t),c.d(t,{Head:function(){return u}});var n=c(7294),a=c(9392);const u=()=>n.createElement(n.Fragment,null,n.createElement("title",null,"Pack 248 - About Us"),n.createElement("meta",{name:"description",content:"Pack 248 is a Family Cub Scout Pack located in Clinton Township, Michigan"}));t.default=()=>n.createElement(a.Z,{pageTitle:"About"})}}]);
-//# sourceMappingURL=component---src-pages-about-js-d970f64905668f160464.js.map

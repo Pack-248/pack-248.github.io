@@ -2,9 +2,12 @@ import * as React from 'react'
 import Layout from '../components/layout'
 
 const GalleryPage = () => {
+
+  
+
   return (
     <Layout pageTitle="Gallery">
-
+    
     </Layout>
   )
 }

@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    prose {
+        @apply !max-w-full text-scoutDarkGray;
+    }
+    prose-base {
+        @apply !max-w-full text-scoutDarkGray;
+        h1 {
+            @apply text-2xl  m-4;
+        }
+        p {
+            @apply my-auto max-w-full mx-4;
+        }
+        ol {
+            li {
+                @apply list-item !list-decimal;
+            }
+        }
+        ul {
+            li {
+                @apply list-item !list-disc;
+            }
+        }
+    }
+    
+}

@@ -10,6 +10,7 @@ module.exports = {
       'cubScoutBlue': '#003F87',
       'cubScoutDarkBlue': '#003366',
       'cubScoutGold': '#FCD116',
+      'cubScoutOrange': '#FF7512',
       'scoutRed': '#CE1126',
       'scoutLightTan': '#E9E9E4',
       'scoutTan': '#D6CEBD',
@@ -17,6 +18,12 @@ module.exports = {
       'scoutPaleGray': '#858787',
       'scoutWarmGray': '#515354',
       'scoutDarkGray': '#232528',
+      'lionYellow': '#FEC51A',
+      'tigerOrange':'#F58538',
+      'wolfRed': '#EA3235',
+      'bearBlue': '#98CAED',
+      'webelosGreen':'#92A85D',
+      'aolKhaki':'#F0DBCA'
     },
     fontFamily: {
       sans: ['Adelle', 'Roboto Slab', 'Trebuchet MS', 'sans-serif'],
@@ -24,5 +31,7 @@ module.exports = {
     },
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 }
