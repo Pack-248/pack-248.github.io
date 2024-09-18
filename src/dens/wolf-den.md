@@ -1,6 +1,6 @@
 ---
 name: "Wolf Den"
-denleader: "TBD"
+denleader: "Jim Keller"
 assistantdenleader: "TBD"
 image: "../images/logo/wolf-badge.png"
 date: 9/16/2024
