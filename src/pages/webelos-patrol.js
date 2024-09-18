@@ -15,14 +15,17 @@ export const query = graphql`
         }
   }`
 
+const pageTitle = "Webelos";
+const pathToInfographic = "../images/ranks/webelos/webelos_infographic.png";
 
 const WebelosPage = ({data}) => {
   const { markdownRemark } = data;
 
   return (
-    <Layout pageTitle="Webelos">
+    <Layout pageTitle={pageTitle}>
     <div className='w-full h-full m-auto flex text-scoutWarmGray '>
       <div className='prose prose-base max-w-none m-6 w-4/5'>
+      <h1 className='text-4xl font-bold'>{pageTitle}</h1>
         <h1 className='prose-h1'>{markdownRemark.frontmatter.title}</h1>
         <div className='flex'>
           <div>
@@ -33,15 +36,15 @@ const WebelosPage = ({data}) => {
           </div>
         </div>
         <div dangerouslySetInnerHTML={{ __html: markdownRemark.html }} />
-        <p>Content correct as of {markdownRemark.frontmatter.date}</p> 
+        <p>Content correct as of {markdownRemark.frontmatter.date}</p>
       </div>
       <div className='prose prose-base rounded-lg text-center m-6 bg-webelosGreen'>
-        <img src='../images/ranks/webelos/webelos_infographic.png' className='rounded-lg w-80' alt='Webelos Rank At a Glance' />
+        <img src={pathToInfographic} className='rounded-lg w-80' alt={pageTitle + ' Rank At a Glance'} />
       </div>
     </div>
     </Layout>
   )
 }
 
-export const Head = () => <title>Pack 248 - Webelos Patrol</title>
+export const Head = () => <title>Pack 248 - {pageTitle} Patrol</title>
 export default WebelosPage;

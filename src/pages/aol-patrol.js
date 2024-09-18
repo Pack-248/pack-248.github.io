@@ -13,15 +13,19 @@ export const query = graphql`
           }
           html
         }
-  }
-`
+  }`
+
+const pageTitle = "Arrow Of Light";
+const pathToInfographic = "../images/ranks/aol/aol_infographic.png";
+
 const AOLPage = ({ data }) => {
 
   const { markdownRemark } = data;
   return (
-    <Layout pageTitle="AOL">
+    <Layout pageTitle={pageTitle}>
       <div className='w-full h-full m-auto flex text-scoutWarmGray '>
       <div className='prose prose-base max-w-none m-6 w-4/5'>
+      <h1 className='text-4xl font-bold'>{pageTitle}</h1>
         <h1 className='prose-h1'>{markdownRemark.frontmatter.name}</h1>
         <div className='flex'>
           <div>
@@ -35,12 +39,12 @@ const AOLPage = ({ data }) => {
         <p>Content correct as of {markdownRemark.frontmatter.date}</p>
       </div>
       <div className='prose prose-base rounded-lg text-center m-6 bg-aolKhaki'>
-        <img src='../images/ranks/aol/aol_infographic.png' className='rounded-lg w-80' alt='Arrow of Light Rank At a Glance' />
+        <img src={pathToInfographic} className='rounded-lg w-80' alt={pageTitle + ' Rank At a Glance'} />
       </div>
     </div>
     </Layout>
   )
 }
 
-export const Head = () => <title>Pack 248 - Arrow of Light Patrol</title>
+export const Head = () => <title>Pack 248 - {pageTitle} Patrol</title>
 export default AOLPage;

@@ -15,13 +15,17 @@ export const query = graphql`
         }
   }`
 
+  const pageTitle = "Wolf";
+  const pathToInfographic = "../images/ranks/wolf/wolf_infographic.png";
+
 const WolfPage = ({data}) => {
   const { markdownRemark } = data;
 
   return (
-    <Layout pageTitle="Wolf">
+    <Layout pageTitle={pageTitle}>
     <div className='w-full h-full m-auto flex text-scoutWarmGray '>
-      <div className='prose prose-base max-w-none m-6 w-4/5'>
+        <div className='prose prose-base max-w-none m-6 w-4/5'>
+      <h1 className='text-4xl font-bold'>{pageTitle}</h1>
         <h1 className='prose-h1'>{markdownRemark.frontmatter.title}</h1>
         <div className='flex'>
           <div>
@@ -35,12 +39,12 @@ const WolfPage = ({data}) => {
         <p>Content correct as of {markdownRemark.frontmatter.date}</p> 
       </div>
       <div className='prose prose-base rounded-lg text-center m-6 bg-wolfRed'>
-        <img src='../images/ranks/wolf/wolf_infographic.png' className='rounded-lg w-80' alt='Wolf Rank At a Glance' />
+        <img src={pathToInfographic} className='rounded-lg w-80' alt={pageTitle + ' Rank At a Glance'} />
       </div>
     </div>
     </Layout>
   )
 }
 
-export const Head = () => <title>Pack 248 - Tiger Den</title>
+export const Head = () => <title>Pack 248 - {pageTitle} Den</title>
 export default WolfPage;
