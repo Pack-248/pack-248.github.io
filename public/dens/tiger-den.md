@@ -5,28 +5,15 @@ assistantdenleader: "TBD"
 image: "../images/logo/tiger-badge.png"
 date: 9/16/2024
 ---
-### Tiger Den
-
-**Welcome to the Tiger Den!**
+## Welcome to the Tiger Den!
 
 The Tiger Den is an exciting and adventurous program for first-grade children (typically 6-7 years old). This program builds on the foundation set in the Lion Den and introduces new challenges and activities that help young Scouts grow and develop essential skills.
 
-#### What is the Tiger Program?
+### What is the Tiger Program?
 
 The Tiger program is designed to provide first graders with a variety of fun and engaging activities that promote learning, teamwork, and outdoor exploration. Through a series of adventures, Tiger Scouts will gain confidence, learn new skills, and make lasting memories.
 
-#### Key Adventures
-
-To earn the Tiger badge, our Tiger Scouts will complete six required adventures and several elective adventures. Here are the core adventures:
-
-- **Games Tigers Play**: Learn about sportsmanship, play team games, and understand the importance of following rules.
-- **My Tiger Jungle**: Explore nature, go on a hike, and learn about plants and animals in the local environment.
-- **Team Tiger**: Participate in team-building activities, understand the value of cooperation, and complete a service project.
-- **Tiger Bites**: Learn about healthy eating, prepare a nutritious snack, and understand the importance of good hygiene.
-- **Tigers in the Wild**: Go on an outdoor adventure, practice the buddy system, and learn basic outdoor skills.
-- **Tiger Circles: Duty to God**: Explore personal beliefs, participate in a faith-based activity, and understand the importance of duty to God.
-
-#### Why Join the Tiger Den?
+### Why Join the Tiger Den?
 
 Joining the Tiger Den offers numerous benefits for young Scouts and their families:
 
@@ -35,8 +22,63 @@ Joining the Tiger Den offers numerous benefits for young Scouts and their famili
 - **Family Involvement**: The Tiger program encourages family participation, making it a great way for parents and guardians to bond with their children.
 - **Community Engagement**: Through service projects and community activities, Tiger Scouts learn the importance of helping others and being active members of their community.
 
-#### How to Join
+## Required Adventures
 
-Ready to start your adventure with the Tiger Den? Joining is easy! Simply contact your local Cub Scout pack or visit the [Boy Scouts of America website](https://www.scouting.org/programs/cub-scouts/adventures/tiger/) for more information on how to get started.
+To earn the Tiger badge, our Tiger Scouts will complete six required adventures and 2 elective adventures. Here are the required adventures:
+
+1. [**Tiger Bobcat**](https://www.scouting.org/cub-scout-adventures/bobcat-tiger/)
+2. [**Tigers in the Wild**](https://www.scouting.org/cub-scout-adventures/tigers-in-the-wild/)
+3. [**Tiger Bites**](https://www.scouting.org/cub-scout-adventures/tiger-bites/)
+4. [**Team Tiger**](https://www.scouting.org/cub-scout-adventures/team-tiger/)
+5. [**Tiger's Roar**](https://www.scouting.org/cub-scout-adventures/tigers-roar/)
+6. [**Tiger Circles**](https://www.scouting.org/cub-scout-adventures/tiger-circles/)
+
+## Elective Adventures
+
+In addition to the required adventures, Tigers ust also complete 2 Elective Adventures. Tigers are encouraged to complete as many Elective Adventures as they desire.
+
+- [Champions for Nature Tiger](https://www.scouting.org/cub-scout-adventures/champions-for-nature-tiger/)
+- [Curiosity, Intrigue, and Magical Mysteries](https://www.scouting.org/cub-scout-adventures/curiosity-intrigue-and-magical-mysteries/)
+- [Designed by Tiger](https://www.scouting.org/cub-scout-adventures/designed-by-tiger/)
+- [Fish On](https://www.scouting.org/cub-scout-adventures/fish-on/)
+- [Floats and Boats](https://www.scouting.org/cub-scout-adventures/floats-and-boats/)
+- [Good Knights](https://www.scouting.org/cub-scout-adventures/good-knights/)
+- [Let's Camp Tiger](https://www.scouting.org/cub-scout-adventures/lets-camp-tiger/)
+- [Race Time Tiger](https://www.scouting.org/cub-scout-adventures/race-time-tiger/)
+- [Rolling Tigers](https://www.scouting.org/cub-scout-adventures/rolling-tigers/)
+- [Safe and Smart](https://www.scouting.org/cub-scout-adventures/safe-and-smart/)
+- [Sky is the Limit](https://www.scouting.org/cub-scout-adventures/sky-is-the-limit/)
+- [Stories in Shapes](https://www.scouting.org/cub-scout-adventures/stories-in-shapes/)
+- [Summertime Fun Tiger](https://www.scouting.org/cub-scout-adventures/summertime-fun-tiger/)
+- [Tech All Around](https://www.scouting.org/cub-scout-adventures/tech-all-around/)
+- [Tiger Tag](https://www.scouting.org/cub-scout-adventures/tiger-tag/)
+- [Tiger-iffic!](https://www.scouting.org/cub-scout-adventures/tiger-iffic/)
+- [Tigers in the Water](https://www.scouting.org/cub-scout-adventures/tigers-in-the-water/)
+
+## Special Elective Adventures
+
+These adventures can only be completed at approved events with qualified instructors:
+
+- Archery Tiger
+- Slingshot
+- BB Guns
+
+## Uniform
+
+The Tiger Cub Scout uniform has the following parts;
+
+1. **Shirt**: The official blue uniform shirt is available with long or short sleeves and has button-flap pockets.
+2. **Pants**: Shorts, long pants, skorts, and roll up pants all are in official blue.
+3. **Belt**: Official navy-blue web belt with metal buckle.
+4. **Socks**: Official socks are available in three lengths: ankle, crew, and knee. Tiger socks have an orange band on the top.
+5. **Hat**: Official blue hat with orange front and Tiger emblem.
+6. **Neckerchief**: Orange triangular neckerchief with Tiger logo. Official BSA neckerchiefs are the only neckerchiefs that are part of the uniform.
+7. **Neckerchief slide**: Official gold-tone metal slide with orange Tiger emblem. Cub Scouts may wear handmade neckerchief slides.
+
+Our local [Scout Shop](https://www.bing.com/search?pglt=513&q=troy+scout+shop&cvid=43d8bcc8c6e0485fa7dbde8ada51db3c&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQABhAMgYIAhAAGEDSAQgyMzA1ajBqMagCALACAA&FORM=ANNTA1&PC=W099) has everything you need to get started. Or click on this link to go to the [online shop](https://www.scoutshop.org/cub-scout-tiger).
+
+## How to Join
+
+Ready to embark on this exciting adventure? Joining the Tiger Den is easy! Simply contact talk to one of our leaders or visit the [BeAScout wensite](https://beascout.scouting.org/list/?zip=48038&program%5B%5D=pack&unitID=233029) for more information on how to get started.
 
 We look forward to welcoming you and your child to the Tiger Den, where the adventure continues and new friendships are made!

@@ -5,29 +5,15 @@ assistantdenleader: "TBD"
 image: "../images/logo/wolf-badge.png"
 date: 9/16/2024
 ---
-
-### Wolf Den
-
-**Welcome to the Wolf Den!**
+## Welcome to the Wolf Den!
 
 The Wolf Den is an exciting program for second-grade children (typically 7-8 years old). Building on the experiences from the Lion and Tiger programs, the Wolf Den introduces new adventures and challenges that help young Scouts develop further skills and confidence.
 
-#### What is the Wolf Program?
+### What is the Wolf Program?
 
 The Wolf program is designed to provide second graders with a variety of fun and engaging activities that promote learning, teamwork, and outdoor exploration. Through a series of adventures, Wolf Scouts will gain confidence, learn new skills, and make lasting memories.
 
-#### Key Adventures
-
-To earn the Wolf badge, our Wolf Scouts will complete six required adventures and several elective adventures. Here are the core adventures:
-
-- **Call of the Wild**: Learn about outdoor safety, go on a campout, and practice basic camping skills.
-- **Council Fire (Duty to Country)**: Participate in a flag ceremony, learn about citizenship, and understand the importance of community service.
-- **Duty to God Footsteps**: Explore personal beliefs, participate in a faith-based activity, and understand the importance of duty to God.
-- **Howling at the Moon**: Learn about communication, participate in a skit or song, and understand the importance of teamwork.
-- **Paws on the Path**: Go on a hike, learn about map reading, and understand the principles of Leave No Trace.
-- **Running with the Pack**: Participate in physical activities, learn about healthy habits, and understand the importance of fitness.
-
-#### Why Join the Wolf Den?
+### Why Join the Wolf Den?
 
 Joining the Wolf Den offers numerous benefits for young Scouts and their families:
 
@@ -36,7 +22,63 @@ Joining the Wolf Den offers numerous benefits for young Scouts and their familie
 - **Family Involvement**: The Wolf program encourages family participation, making it a great way for parents and guardians to bond with their children.
 - **Community Engagement**: Through service projects and community activities, Wolf Scouts learn the importance of helping others and being active members of their community.
 
-#### How to Join
+## Required Adventures
+
+To earn the Wolf rank, our Wolf Scouts will complete six required adventures and 2 elective adventures. Here are the required adventures:
+
+1. [**Wolf Bobcat**](https://www.scouting.org/cub-scout-adventures/bobcat-wolf/)
+2. [**Paws on the Path**](https://www.scouting.org/cub-scout-adventures/paws-on-the-path/)
+3. [**Running With the Pack**](https://www.scouting.org/cub-scout-adventures/running-with-the-pack/)
+4. [**Council Fire**](https://www.scouting.org/cub-scout-adventures/council-fire/)
+5. [**Safety In Numbers**](https://www.scouting.org/cub-scout-adventures/safety-in-numbers/)
+6. [**Footsteps**](https://www.scouting.org/cub-scout-adventures/footsteps/)
+
+## Elective Adventures
+
+In addition to the required adventures, Wolves must also complete 2 Elective Adventures. Wolves are encouraged to complete as many Elective Adventures as they desire.
+
+- [A Wolf Goes Fishing](https://www.scouting.org/cub-scout-adventures/a-wolf-goes-fishing/)
+- [Adventures in Coins](https://www.scouting.org/cub-scout-adventures/adventures-in-coins/)
+- [Air of the Wolf](https://www.scouting.org/cub-scout-adventures/air-of-the-wolf/)
+- [Champions for Nature Wolf](https://www.scouting.org/cub-scout-adventures/champions-for-nature-wolf/)
+- [Code of the Wolf](https://www.scouting.org/cub-scout-adventures/code-of-the-wolf/)
+- [Computing Wolves](https://www.scouting.org/cub-scout-adventures/computing-wolves/)
+- [Cubs Who Care](https://www.scouting.org/cub-scout-adventures/cubs-who-care/)
+- [Digging in the Past](https://www.scouting.org/cub-scout-adventures/digging-in-the-past/)
+- [Finding Your Way](https://www.scouting.org/cub-scout-adventures/finding-your-way/)
+- [Germs Alive!](https://www.scouting.org/cub-scout-adventures/germs-alive/)
+- [Let's Camp Wolf](https://www.scouting.org/cub-scout-adventures/lets-camp-wolf/)
+- [Paws for Water](https://www.scouting.org/cub-scout-adventures/paws-for-water/)
+- [Paws of Skill](https://www.scouting.org/cub-scout-adventures/paws-of-skill/)
+- [Pedal With the Pack](https://www.scouting.org/cub-scout-adventures/pedal-with-the-pack/)
+- [Race Time Wolf](https://www.scouting.org/cub-scout-adventures/race-time-wolf/)
+- [Spirit of the Water](https://www.scouting.org/cub-scout-adventures/spirit-of-the-water/)
+- [Summertime Fun Wolf](https://www.scouting.org/cub-scout-adventures/summertime-fun-wolf/)
+
+
+## Special Elective Adventures
+
+These adventures can only be completed at approved events with qualified instructors:
+
+- Archery Tiger
+- Slingshot
+- BB Guns
+
+## Uniform
+
+The Wolf Cub Scout uniform has the following parts:
+
+**Shirt**: The official blue uniform shirt is available with long or short sleeves and has button-flap pockets.
+**Pants**: Shorts, long pants, skorts, and roll up pants all are in official blue.
+**Belt**: Official navy-blue web belt with metal buckle.
+**Socks**: Official socks are available in three lengths: ankle, crew, and knee. Wolf socks have a yellow band on the top.
+**Hat**: Official hat red front and Wolf emblem.
+**Neckerchief**: Red triangular neckerchief with Wolf logo. Official BSA neckerchiefs are the only neckerchiefs that are part of the uniform.
+**Neckerchief slide**: Official gold-tone metal slide with red Wolf emblem. Cub Scouts may wear handmade neckerchief slides.
+
+Our local [Scout Shop](https://www.bing.com/search?pglt=513&q=troy+scout+shop&cvid=43d8bcc8c6e0485fa7dbde8ada51db3c&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQABhAMgYIAhAAGEDSAQgyMzA1ajBqMagCALACAA&FORM=ANNTA1&PC=W099) has everything you need to get started. Or click on this link to go to the [online shop](https://www.scoutshop.org/cub-scout-wolf).
+
+## How to Join
 
 Ready to start your adventure with the Wolf Den? Joining is easy! Simply contact your local Cub Scout pack or visit the [Boy Scouts of America website](https://www.scouting.org/programs/cub-scouts/adventures/wolf/) for more information on how to get started.
 

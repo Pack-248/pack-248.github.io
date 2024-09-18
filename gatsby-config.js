@@ -9,7 +9,7 @@ module.exports = {
   plugins: [`gatsby-plugin-postcss`, `gatsby-plugin-image`, `gatsby-plugin-sitemap`, {
     resolve: `gatsby-plugin-manifest`,
     options: {
-      "icon": `src/images/icon.png`
+      "icon": `src/images/logo/Pack 248 Logo.webp`
     }
   }, `gatsby-plugin-sharp`, `gatsby-transformer-sharp`, {
     resolve: 'gatsby-source-filesystem',
@@ -32,6 +32,20 @@ module.exports = {
       path: `${__dirname}/src/docs/`
     },
     __key: "docs"
+  }, {
+    resolve: 'gatsby-source-filesystem',
+    options: {
+      name: `dens`,
+      path: `${__dirname}/src/dens/`
+    },
+    __key: "dens"
+  }, {
+    resolve: 'gatsby-source-filesystem',
+    options: {
+      name: `packs`,
+      path: `${__dirname}/src/packs/`
+    },
+    __key: "packs"
   },
 ]
 };

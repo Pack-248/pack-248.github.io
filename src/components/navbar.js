@@ -2,7 +2,7 @@ import * as React from 'react'
 import { Link } from 'gatsby'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { StaticImage } from "gatsby-plugin-image"
 
 library.add(fab)
@@ -21,9 +21,7 @@ const NavBar = ({pageTitle}) => {
                         <li className='pr-8'><Link to="/gallery" className='text-scoutWarmGray'>Gallery</Link></li>
                         <li className='pr-8'><Link to="/resources" className='text-scoutWarmGray'>Resources</Link></li>
                         <li className='pr-8'><Link to="/contact" className='text-scoutWarmGray'>Contact</Link></li>
-                        <li className='pr-8'><Link to="/about" className='text-scoutWarmGray'>About</Link></li>
-                        {/* <li className='pr-8'><Link to="https://facebook.com/pack248" className='text-blue-600'><FontAwesomeIcon icon={['fab', 'facebook']} /></Link></li>
-                        <li className='pr-8'><Link to="https://facebook.com/pack248" className='text-blue-600'><FontAwesomeIcon icon={['fab', 'twitter']} /></Link></li> */}
+                        <li className='pr-8'><a href="https://facebook.com/groups/EriePack248" target="_blank" rel="noreferrer" className='text-blue-600'><FontAwesomeIcon icon={['fab', 'facebook']} /></a></li>  
                     </ul>
                 </nav>
             )
@@ -40,8 +38,7 @@ const NavBar = ({pageTitle}) => {
                         <li className='pr-8'><Link to="/resources" className='text-scoutWarmGray'>Resources</Link></li>
                         <li className='pr-8'><Link to="/contact" className='text-scoutWarmGray'>Contact</Link></li>
                         <li className='pr-8'><Link to="/about" className='text-scoutWarmGray'>About</Link></li>
-                        {/* <li className='pr-8'><Link to="https://facebook.com/pack248" className='text-blue-600'><FontAwesomeIcon icon={['fab', 'facebook']} /></Link></li>
-                        <li className='pr-8'><Link to="https://facebook.com/pack248" className='text-blue-600'><FontAwesomeIcon icon={['fab', 'twitter']} /></Link></li> */}
+                        <li className='pr-8'><a href="https://facebook.com/groups/EriePack248" target="_blank" rel="noreferrer" className='text-blue-600'><FontAwesomeIcon icon={['fab', 'facebook']} /></a></li>
                     </ul>
                 </nav>
             )
@@ -58,8 +55,7 @@ const NavBar = ({pageTitle}) => {
                         <li className='pr-8'><Link to="/resources" className='text-scoutWarmGray'>Resources</Link></li>
                         <li className='pr-8'><Link to="/contact" className='text-scoutWarmGray'>Contact</Link></li>
                         <li className='pr-8'><Link to="/about" className='text-scoutWarmGray'>About</Link></li>
-                        {/* <li className='pr-8'><Link to="https://facebook.com/pack248" className='text-blue-600'><FontAwesomeIcon icon={['fab', 'facebook']} /></Link></li>
-                        <li className='pr-8'><Link to="https://facebook.com/pack248" className='text-blue-600'><FontAwesomeIcon icon={['fab', 'twitter']} /></Link></li> */}
+                        <li className='pr-8'><a href="https://facebook.com/groups/EriePack248" target="_blank" rel="noreferrer" className='text-blue-600'><FontAwesomeIcon icon={['fab', 'facebook']} /></a></li>
                     </ul>
                 </nav>
             )
@@ -76,8 +72,7 @@ const NavBar = ({pageTitle}) => {
                         <li className='pr-8'><Link to="/resources" className='text-scoutWarmGray'>Resources</Link></li>
                         <li className='pr-8'><Link to="/contact" className='text-scoutWarmGray'>Contact</Link></li>
                         <li className='pr-8'><Link to="/about" className='text-scoutWarmGray'>About</Link></li>
-                        {/* <li className='pr-8'><Link to="https://facebook.com/pack248" className='text-blue-600'><FontAwesomeIcon icon={['fab', 'facebook']} /></Link></li>
-                        <li className='pr-8'><Link to="https://facebook.com/pack248" className='text-blue-600'><FontAwesomeIcon icon={['fab', 'twitter']} /></Link></li> */}
+                        <li className='pr-8'><a href="https://facebook.com/groups/EriePack248" target="_blank" rel="noreferrer" className='text-blue-600'><FontAwesomeIcon icon={['fab', 'facebook']} /></a></li>
                     </ul>
                 </nav>
             )
@@ -94,8 +89,7 @@ const NavBar = ({pageTitle}) => {
                         <li className='pr-8'><Link to="/resources" className='text-scoutWarmGray'>Resources</Link></li>
                         <li className='pr-8'><Link to="/contact" className='text-scoutWarmGray'>Contact</Link></li>
                         <li className='pr-8'><Link to="/about" className='text-scoutWarmGray'>About</Link></li>
-                        {/* <li className='pr-8'><Link to="https://facebook.com/pack248" className='text-blue-600'><FontAwesomeIcon icon={['fab', 'facebook']} /></Link></li>
-                        <li className='pr-8'><Link to="https://facebook.com/pack248" className='text-blue-600'><FontAwesomeIcon icon={['fab', 'twitter']} /></Link></li> */}
+                        <li className='pr-8'><a href="https://facebook.com/groups/EriePack248" target="_blank" rel="noreferrer" className='text-blue-600'><FontAwesomeIcon icon={['fab', 'facebook']} /></a></li>
                     </ul>
                 </nav>
             )
@@ -112,8 +106,7 @@ const NavBar = ({pageTitle}) => {
                         <li className='pr-8'><Link to="/resources" className='text-scoutWarmGray font-bold'>Resources</Link></li>
                         <li className='pr-8'><Link to="/contact" className='text-scoutWarmGray'>Contact</Link></li>
                         <li className='pr-8'><Link to="/about" className='text-scoutWarmGray'>About</Link></li>
-                        {/* <li className='pr-8'><Link to="https://facebook.com/pack248" className='text-blue-600'><FontAwesomeIcon icon={['fab', 'facebook']} /></Link></li>
-                        <li className='pr-8'><Link to="https://facebook.com/pack248" className='text-blue-600'><FontAwesomeIcon icon={['fab', 'twitter']} /></Link></li> */}
+                        <li className='pr-8'><a href="https://facebook.com/groups/EriePack248" target="_blank" rel="noreferrer" className='text-blue-600'><FontAwesomeIcon icon={['fab', 'facebook']} /></a></li>
                     </ul>
                 </nav>
             )
@@ -130,8 +123,7 @@ const NavBar = ({pageTitle}) => {
                         <li className='pr-8'><Link to="/resources" className='text-scoutWarmGray'>Resources</Link></li>
                         <li className='pr-8'><Link to="/contact" className='text-scoutWarmGray font-bold'>Contact</Link></li>
                         <li className='pr-8'><Link to="/about" className='text-scoutWarmGray'>About</Link></li>
-                        {/* <li className='pr-8'><Link to="https://facebook.com/pack248" className='text-blue-600'><FontAwesomeIcon icon={['fab', 'facebook']} /></Link></li>
-                        <li className='pr-8'><Link to="https://facebook.com/pack248" className='text-blue-600'><FontAwesomeIcon icon={['fab', 'twitter']} /></Link></li> */}
+                        <li className='pr-8'><a href="https://facebook.com/groups/EriePack248" target="_blank" rel="noreferrer" className='text-blue-600'><FontAwesomeIcon icon={['fab', 'facebook']} /></a></li>
                     </ul>
                 </nav>
             )
@@ -148,8 +140,7 @@ const NavBar = ({pageTitle}) => {
                         <li className='pr-8'><Link to="/resources" className='text-scoutWarmGray'>Resources</Link></li>
                         <li className='pr-8'><Link to="/contact" className='text-scoutWarmGray'>Contact</Link></li>
                         <li className='pr-8'><Link to="/about" className='text-scoutWarmGray font-bold'>About</Link></li>
-                        {/* <li className='pr-8'><Link to="https://facebook.com/pack248" className='text-blue-600'><FontAwesomeIcon icon={['fab', 'facebook']} /></Link></li>
-                        <li className='pr-8'><Link to="https://facebook.com/pack248" className='text-blue-600'><FontAwesomeIcon icon={['fab', 'twitter']} /></Link></li> */}
+                        <li className='pr-8'><a href="https://facebook.com/groups/EriePack248" target="_blank" rel="noreferrer" className='text-blue-600'><FontAwesomeIcon icon={['fab', 'facebook']} /></a></li>
                     </ul>
                 </nav>
             )
@@ -166,8 +157,7 @@ const NavBar = ({pageTitle}) => {
                         <li className='pr-8'><Link to="/resources" className='text-scoutWarmGray'>Resources</Link></li>
                         <li className='pr-8'><Link to="/contact" className='text-scoutWarmGray'>Contact</Link></li>
                         <li className='pr-8'><Link to="/about" className='text-scoutWarmGray'>About</Link></li>
-                        {/* <li className='pr-8'><Link to="https://facebook.com/pack248" className='text-blue-600'><FontAwesomeIcon icon={['fab', 'facebook']} /></Link></li>
-                        <li className='pr-8'><Link to="https://facebook.com/pack248" className='text-blue-600'><FontAwesomeIcon icon={['fab', 'twitter']} /></Link></li> */}
+                        <li className='pr-8'><a href="https://facebook.com/groups/EriePack248" target="_blank" rel="noreferrer" className='text-blue-600'><FontAwesomeIcon icon={['fab', 'facebook']} /></a></li>
                     </ul>
                 </nav>
             )

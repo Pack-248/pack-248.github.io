@@ -22,21 +22,21 @@ const LionPage = () => {
   return (
     <Layout pageTitle="Lion">
     <div className='w-full h-full m-auto flex text-scoutWarmGray '>
-      <div className='prose prose-base max-w-none m-6'>
+      <div className='prose prose-base max-w-none m-6 w-4/5'>
         <h1 className='prose-h1'>{data.title}</h1>
         <div className='flex'>
           <div>
-            <h2 className='m-auto text-lionYellow'>Den Leader: <span className='font-lg text-scoutWarmGray'>{data.denleader}</span></h2>
+            <h2 className='m-auto text-lionYellow'>Den Leader: <span className='font-lg text-scoutDarkGray'>{data.denleader}</span></h2>
           </div>
           <div>
             <h2 className='m-auto ml-6 text-lionYellow'>Assistant Den Leader: <span className='font-lg text-scoutDarkGray'>{data.assistantdenleader}</span></h2>
           </div>
         </div>
         <ReactMarkdown>{content}</ReactMarkdown>
-        <p>Content correct as of {data.date}</p>
+        <p>Content correct as of {data.date}</p> 
       </div>
-      <div className='prose prose-base rounded-lg text-center w-96 m-6 bg-lionYellow'>
-        <img src='../images/misc/Lion_Infographic.png' className='rounded-lg w-96' alt='Lion Rank At a Glance' />
+      <div className='prose prose-base rounded-lg text-center m-6 bg-lionYellow'>
+        <img src='../images/ranks/lion/lion_infographic.png' className='rounded-lg w-80' alt='Lion Rank At a Glance' />
       </div>
     </div>
     </Layout>

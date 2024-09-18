@@ -1,11 +1,10 @@
-import * as React from 'react'
-//import { Link } from 'gatsby'
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab } from '@fortawesome/free-brands-svg-icons'
-//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { StaticImage } from "gatsby-plugin-image"
+import * as React from 'react';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { StaticImage } from "gatsby-plugin-image";
 
-library.add(fab)
+library.add(fab);
 
 const Footer = ({pageTitle}) => {
     return (
@@ -19,8 +18,7 @@ const Footer = ({pageTitle}) => {
                     <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
                 </aside>
                 <nav className="grid grid-flow-col gap-4 place-self-center justify-self-end pr-8">
-                    {/* <Link to="https://facebook.com/pack248" className='text-scoutLightTan'><FontAwesomeIcon className='h-10' icon={['fab', 'facebook']} /></Link>
-                    <Link to="https://facebook.com/pack248" className='text-scoutLightTan'><FontAwesomeIcon className='h-10' icon={['fab', 'twitter']} /></Link> */}
+                    <a href="https://facebook.com/groups/EriePack248" target="_blank" rel="noreferrer" className='text-scoutLightTan'><FontAwesomeIcon className='h-10' icon={['fab', 'facebook']} /></a>
                 </nav>
             </div>
         </div>
