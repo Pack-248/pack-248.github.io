@@ -1,6 +1,7 @@
 /**
  * @type {import('gatsby').GatsbyConfig}
  */
+
 module.exports = {
   siteMetadata: {
     title: `Cub Scout Pack 248`,
@@ -46,7 +47,12 @@ module.exports = {
       path: `${__dirname}/src/packs/`
     },
     __key: "packs"
-  },
+  }, {
+    resolve: `gatsby-transformer-remark`,
+    options: {
+      jsFrontmatterEngine: true,
+    },
+  }
 ]
 };
 /**

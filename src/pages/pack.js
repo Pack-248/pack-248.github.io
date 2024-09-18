@@ -1,68 +1,79 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import Layout from '../components/layout'
-import matter from 'gray-matter';
-import ReactMarkdown from 'react-markdown';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { graphql } from "gatsby"
+
 library.add(fab);
 library.add(fas);
 
-const PackPage = () => {
-  const [content, setContent] = useState('');
-  const [data, setData] = useState({});
-  
-  useEffect(() => {
-    fetch('../packs/pack-248.md')
-      .then((response) => response.text())
-      .then((text) => {
-        console.log(text);
-        const { content, data } = matter(text);
-        setContent(content);
-        setData(data);
-      });
-  }, []);
+export const query = graphql`
+  query {
+    markdownRemark(frontmatter: { title: { eq: "Pack 248" } }) {
+          frontmatter {
+            title
+            location
+            cubmaster
+            assistantcubmaster
+            date
+            committeechair
+            charteredorgrep
+            treasurer
+            recruiting
+            communications
+            advancement
+            membership
+            chiefpontiac
+          }
+          html
+        }
+  }`
+
+const PackPage = ({data}) => {
+
+  const { markdownRemark } = data;
 
   return (
     <Layout pageTitle="Pack">
     <div className='w-full h-full m-auto flex text-scoutWarmGray '>
       <div className='prose prose-base max-w-none m-6 w-4/5'>
-        <h1 className='prose-h1'>{data.title} - {data.location}</h1>
+        <h1 className='prose-h1'>{markdownRemark.frontmatter.title} - {markdownRemark.frontmatter.location}</h1>
         <div className='flex'>
           <div>
-            <h2 className='m-auto text-cubScoutBlue'>Cubmaster: <span className='font-lg text-scoutDarkGray'>{data.cubmaster}</span></h2>
+            <h2 className='m-auto text-cubScoutBlue'>Cubmaster: <span className='font-lg text-scoutDarkGray'>{markdownRemark.frontmatter.cubmaster}</span></h2>
           </div>
           <div>
-            <h2 className='m-auto ml-6 text-cubScoutBlue'>Assistant Cubmaster: <span className='font-lg text-scoutDarkGray'>{data.assistantcubmaster}</span></h2>
+            <h2 className='m-auto ml-6 text-cubScoutBlue'>Assistant Cubmaster: <span className='font-lg text-scoutDarkGray'>{markdownRemark.frontmatter.assistantcubmaster}</span></h2>
           </div>
         </div>
-        <ReactMarkdown>{content}</ReactMarkdown>
-        <p>Content correct as of {data.date}</p>
+        <div dangerouslySetInnerHTML={{ __html: markdownRemark.html }} />
+        <p>Content correct as of {markdownRemark.frontmatter.date}</p>
       </div>
       <div className='prose prose-base rounded-lg m-6 bg-cubScoutBlue'>
-        <img src="../images/logo/Pack 248 Logo-gh-dark.png" className='rounded-lg w-80 mt-6' alt={ data.title + ' Logo'} />
+        <img src="../images/logo/Pack 248 Logo-gh-dark.png" className='rounded-lg w-80 mt-6' alt={ markdownRemark.frontmatter.title + ' Logo'} />
         <h3 className='text-2xl ml-6 text-cubScoutPaleBlue'>Dens</h3>
         <ul>
           <li className='list-none'><a className='text-lionYellow no-underline' href='/lion-den'>Lion</a></li>
           <li className='list-none'><a className='text-tigerOrange no-underline' href='/tiger-den'>Tiger</a></li>
           <li className='list-none'><a className='text-wolfRed no-underline' href='/wolf-den'>Wolf</a></li>
-          <li className='list-none'><a className='text-bearBlue no-underline' href='/Bear-den'>Bear</a></li>
+          <li className='list-none'><a className='text-bearBlue no-underline' href='/bear-den'>Bear</a></li>
           <li className='list-none'><a className='text-webelosGreen no-underline' href='/webelos-patrol'>Webelos Patrol</a></li>
           <li className='list-none'><a className='text-aolKhaki no-underline' href='/aol-patrol'>Arrow of Light Patrol</a></li>
         </ul>
         <h3 className='text-2xl ml-6 text-cubScoutPaleBlue'>Leadership</h3>
         <ul>
-          <li className='list-none text-scoutTan font-bold'>Committee Chair: <br/><span className='ml-4 text-scoutLightTan font-extralight'>{data.committeechair}</span></li>
-          <li className='list-none text-scoutTan font-bold'>Charted Org Rep: <br/><span className='ml-4 text-scoutLightTan font-extralight'>{data.charteredorgrep}</span></li>
-          <li className='list-none text-scoutTan font-bold'>Cubmaster: <br/><span className='ml-4 text-scoutLightTan font-extralight'>{data.cubmaster}</span></li>
-          <li className='list-none text-scoutTan font-bold'>Assistant Cubmaster: <br/><span className='ml-4 text-scoutLightTan font-extralight'>{data.assistantcubmaster}</span></li>
-          <li className='list-none text-scoutTan font-bold'>Communications: <br/><span className='ml-4 text-scoutLightTan font-extralight'>{data.communications}</span></li>
-          <li className='list-none text-scoutTan font-bold'>Treasurers: <br/><span className='ml-4 text-scoutLightTan font-extralight'>{data.treasurer}</span></li>
-          <li className='list-none text-scoutTan font-bold'>Advancement: <br/><span className='ml-4 text-scoutLightTan font-extralight'>{data.advancement}</span></li>
-          <li className='list-none text-scoutTan font-bold'>Membership: <br/><span className='ml-4 text-scoutLightTan font-extralight'>{data.membership}</span></li>
-          <li className='list-none text-scoutTan font-bold'>Chief Pontiac Trail: <br/><span className='ml-4 text-scoutLightTan font-extralight'>{data.chiefpontiac}</span></li>
-          <li className='list-none text-scoutTan font-bold'>Recruiting: <br/><span className='ml-4 text-scoutLightTan font-extralight'>{data.recruiting}</span></li>
+          <li className='list-none text-scoutTan font-bold'>Committee Chair: <br/><span className='ml-4 text-scoutLightTan font-extralight'>{markdownRemark.frontmatter.committeechair}</span></li>
+          <li className='list-none text-scoutTan font-bold'>Charted Org Rep: <br/><span className='ml-4 text-scoutLightTan font-extralight'>{markdownRemark.frontmatter.charteredorgrep}</span></li>
+          <li className='list-none text-scoutTan font-bold'>Cubmaster: <br/><span className='ml-4 text-scoutLightTan font-extralight'>{markdownRemark.frontmatter.cubmaster}</span></li>
+          <li className='list-none text-scoutTan font-bold'>Assistant Cubmaster: <br/><span className='ml-4 text-scoutLightTan font-extralight'>{markdownRemark.frontmatter.assistantcubmaster}</span></li>
+          <li className='list-none text-scoutTan font-bold'>Communications: <br/><span className='ml-4 text-scoutLightTan font-extralight'>{markdownRemark.frontmatter.communications}</span></li>
+          <li className='list-none text-scoutTan font-bold'>Treasurers: <br/><span className='ml-4 text-scoutLightTan font-extralight'>{markdownRemark.frontmatter.treasurer}</span></li>
+          <li className='list-none text-scoutTan font-bold'>Advancement: <br/><span className='ml-4 text-scoutLightTan font-extralight'>{markdownRemark.frontmatter.advancement}</span></li>
+          <li className='list-none text-scoutTan font-bold'>Membership: <br/><span className='ml-4 text-scoutLightTan font-extralight'>{markdownRemark.frontmatter.membership}</span></li>
+          <li className='list-none text-scoutTan font-bold'>Chief Pontiac Trail: <br/><span className='ml-4 text-scoutLightTan font-extralight'>{markdownRemark.frontmatter.chiefpontiac}</span></li>
+          <li className='list-none text-scoutTan font-bold'>Recruiting: <br/><span className='ml-4 text-scoutLightTan font-extralight'>{markdownRemark.frontmatter.recruiting}</span></li>
         </ul>
         <h3 className='text-2xl ml-6 text-cubScoutPaleBlue'>Contact</h3>
         <ul className='mb-6'>

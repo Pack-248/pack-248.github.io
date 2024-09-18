@@ -4,7 +4,12 @@ const BreadCrumb = ({pageTitle}) => {
     switch(pageTitle) {
         case "Home":
             break;
-        case "Lion"||"Tiger"||"Wolf"||"Bear"||"Webelos"||"AOL":
+        case "Tiger":
+        case "Wolf":
+        case "Bear":
+        case "Webelos":
+        case "AOL":
+        case "Lion":
             return (
                 <div className='items-center justify-center flex flex-col gap-2'>
                     <div className="max-w-full overflow-x-auto pt-2 pb-2 text-sm ">
@@ -18,7 +23,6 @@ const BreadCrumb = ({pageTitle}) => {
                     </div>
                 </div>
             )
-            break;
         default:
             return (
                 <div className='items-center justify-center flex flex-col gap-2'>
