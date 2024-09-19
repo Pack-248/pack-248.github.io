@@ -38,7 +38,7 @@ const TigerPage = ({data}) => {
         <p>Content correct as of {markdownRemark.frontmatter.date}</p> 
       </div>
       <div className='prose prose-base rounded-lg text-center m-6 bg-tigerOrange'>
-        <img src='../images/ranks/tiger/tiger_infographic.png' className='rounded-lg w-80' alt={pageTitle + ' Rank At a Glance'} />
+        <img src={pathToInfographic} className='rounded-lg w-80' alt={pageTitle + ' Rank At a Glance'} />
       </div>
     </div>
     </Layout>
