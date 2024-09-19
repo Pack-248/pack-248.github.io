@@ -5,8 +5,9 @@
 module.exports = {
   siteMetadata: {
     title: `Cub Scout Pack 248`,
-    siteUrl: `https://www.pack248.org`
-  },
+    siteUrl: `https://www.pack248.org`,
+    description: `Put a very description description here`
+    },
   plugins: [`gatsby-plugin-postcss`, `gatsby-plugin-image`, `gatsby-plugin-sitemap`, {
     resolve: `gatsby-plugin-manifest`,
     options: {
@@ -47,6 +48,13 @@ module.exports = {
       path: `${__dirname}/src/packs/`
     },
     __key: "packs"
+  }, {
+    resolve: 'gatsby-source-filesystem',
+    options: {
+      name: `news`,
+      path: `${__dirname}/src/news/`
+    },
+    __key: "news"
   }, {
     resolve: `gatsby-transformer-remark`,
     options: {

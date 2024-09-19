@@ -1,5 +1,5 @@
 import React from 'react';
-import Layout from '../components/layout'
+import Layout from '../components/layout';
 import { graphql } from 'gatsby';
 
 export const query = graphql`
@@ -13,7 +13,7 @@ export const query = graphql`
           }
           html
         }
-  }`
+  }`;
 
 const pageTitle = "Arrow Of Light";
 const pathToInfographic = "../images/ranks/aol/aol_infographic.png";
@@ -25,7 +25,6 @@ const AOLPage = ({ data }) => {
     <Layout pageTitle={pageTitle}>
       <div className='w-full h-full m-auto flex text-scoutWarmGray '>
       <div className='prose prose-base max-w-none m-6 w-4/5'>
-      <h1 className='text-4xl font-bold'>{pageTitle}</h1>
         <h1 className='prose-h1'>{markdownRemark.frontmatter.name}</h1>
         <div className='flex'>
           <div>
@@ -44,7 +43,7 @@ const AOLPage = ({ data }) => {
     </div>
     </Layout>
   )
-}
+};
 
-export const Head = () => <title>Pack 248 - {pageTitle} Patrol</title>
+export const Head = () => <title>Pack 248 - {pageTitle} Patrol</title>;
 export default AOLPage;

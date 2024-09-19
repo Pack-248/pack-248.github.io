@@ -24,8 +24,7 @@ const TigerPage = ({data}) => {
     <Layout pageTitle={pageTitle}>
     <div className='w-full h-full m-auto flex text-scoutWarmGray '>
       <div className='prose prose-base max-w-none m-6 w-4/5'>
-      <h1 className='text-4xl font-bold'>{pageTitle}</h1>
-        <h1 className='prose-h1'>{markdownRemark.frontmatter.title}</h1>
+        <h1 className='prose-h1'>{markdownRemark.frontmatter.name}</h1>
         <div className='flex'>
           <div>
             <h2 className='m-auto text-tigerOrange'>Den Leader: <span className='font-lg text-scoutDarkGray'>{markdownRemark.frontmatter.denleader}</span></h2>

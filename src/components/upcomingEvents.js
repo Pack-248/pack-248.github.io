@@ -23,7 +23,6 @@ const UpcomingEvents = ({pageTitle}) => {
                     orderBy: 'startTime',
                 },
                 });
-                console.log(response.data.items);
                 setEvents(response.data.items);
             } catch (error) {
                 console.error('Error fetching events', error);

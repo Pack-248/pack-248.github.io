@@ -1,8 +1,8 @@
-import * as React from 'react'
-import Layout from '../components/layout'
-import Hero from '../components/hero'
-import Feature from '../components/feature'
-import UpcomingEvents from '../components/upcomingEvents'
+import * as React from 'react';
+import Layout from '../components/layout';
+import Hero from '../components/hero';
+import Feature from '../components/feature';
+import UpcomingEvents from '../components/upcomingEvents';
 
 const IndexPage = () => {
   return (
@@ -12,7 +12,7 @@ const IndexPage = () => {
       <UpcomingEvents pageTitle="Home" />
     </Layout>
   )
-}
+};
 
-export const Head = () => <title>Pack 248 - Home</title>
-export default IndexPage
+export const Head = () => <title>Pack 248 - Home</title>;
+export default IndexPage;

@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkcub_scout_pack_248=self.webpackChunkcub_scout_pack_248||[]).push([[636],{4826:function(e,c,t){t.r(c),t.d(c,{Head:function(){return s}});var u=t(6540),a=t(7532);const s=()=>u.createElement("title",null,"Pack 248 - Pack Resources");c.default=()=>u.createElement(a.A,{pageTitle:"Resources"})}}]);
+//# sourceMappingURL=component---src-pages-resources-js-d716ef4d992a452b0b1c.js.map

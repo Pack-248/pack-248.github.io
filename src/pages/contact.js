@@ -1,5 +1,5 @@
-import * as React from 'react'
-import Layout from '../components/layout'
+import * as React from 'react';
+import Layout from '../components/layout';
 
 const ContactPage = () => {
   return (
@@ -9,5 +9,5 @@ const ContactPage = () => {
   )
 }
 
-export const Head = () => <title>Pack 248 - Contact Us</title>
-export default ContactPage
+export const Head = () => <title>Pack 248 - Contact Us</title>;
+export default ContactPage;

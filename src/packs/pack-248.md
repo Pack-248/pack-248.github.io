@@ -17,6 +17,8 @@ chiefpontiac: "Kim Hayden"
 
 Pack 248 is a vibrant and active family Cub Scout unit located in Clinton Township, Michigan. Dedicated to fostering the values of Scouting, Pack 248 provides a supportive and engaging environment for boys and girls in grades K-5. The pack is known for its commitment to community service, outdoor adventures, and developing leadership skills among its members.
 
+A Pack is only as successful as its Scouts. We expect that a Scout follows the Scout Oath and Law, not only in Pack activities but also in everyday life. Therefore, we encourage each Scout to get the most out of the Scouting experience.
+
 We organize a variety of activities, including camping trips, community service projects, and educational outings. These events are designed to help Scouts learn new skills, build friendships, and develop a sense of responsibility and citizenship. The pack also participates in larger Scouting events, offering opportunities for Scouts to connect with peers from other units and experience the broader Scouting community.
 
 With a strong focus on family involvement, we encourage parents and guardians to actively participate in their children's Scouting journey. This collaborative approach helps create a close-knit community where families can share in the excitement and growth that Scouting brings.

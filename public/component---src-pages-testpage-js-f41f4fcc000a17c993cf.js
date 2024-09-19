@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkcub_scout_pack_248=self.webpackChunkcub_scout_pack_248||[]).push([[548],{1504:function(e,c,t){t.r(c);var u=t(6540),a=t(2368);c.default=()=>u.createElement(a.A,{pageTitle:"Photo"},u.createElement("h1",null,"Hi"))}}]);
+//# sourceMappingURL=component---src-pages-testpage-js-f41f4fcc000a17c993cf.js.map

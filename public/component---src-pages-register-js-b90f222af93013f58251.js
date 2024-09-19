@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkcub_scout_pack_248=self.webpackChunkcub_scout_pack_248||[]).push([[942],{8486:function(e,t,c){c.r(t),c.d(t,{Head:function(){return n}});var u=c(6540),a=c(7532);const n=()=>u.createElement("title",null,"Pack 248 - Register");t.default=()=>u.createElement(a.A,{pageTitle:"Register"})}}]);
+//# sourceMappingURL=component---src-pages-register-js-b90f222af93013f58251.js.map
