@@ -1,0 +1,37 @@
+---
+title: "Cub Scouts is helping close today’s ‘soft-skills gap’ in young children"
+author: "Steve Kaschimer, Assistant Coubmaster"
+date: 9/23/2024
+imageurl: "../images/news/rubiks-kid.webp"
+type: "News"
+---
+
+Today's employers are looking to hire someone with problem-solving skills, a strong work ethic, and the ability to work in a team. "Sounds an awful lot like the traits we develop in Scouting"!
+
+As Cub Scout adults leaders and volunteers, we are laser-focused on introducing young people to purpose-packed adventures in the outdoors. Because we know that Scouting offers more than just incredible experiences, it helps prepare young people to succeed in life. According to the National Association of Colleges and Employers, today's hiring managers value "soft skills" far more significant than technical or computer skills.
+
+Technical skills can be learned. You can memorize business jargon, learn how to operate an expensive piece of equipment, or master a complex computer program in a few weeks or months—learning skills like leadership and teamwork? That takes time. That takes the kind of immersive experiences you can only find in Scouting.
+
+As Cub Scout adult leaders and volunteers, we learned very quickly that our work was about so much more than providing a fun and exciting experience for Scouts. It is also about compounding the values of Scouting that had been taught in the background all year long.
+
+We can recall so many instances of parents and guardians who thought we had replaced their child with someone else at the end of their experience. Yet, in just one month, their child had become more independent, more self-reliant, more communicative, and gained more confidence than through any other experience they had encountered. The 'soft-skills gap': It's real but can be closed An internet search for "soft-skills gap" or browse the business section of your nearest bookstore, and you'll see countless books and articles about this relatively new phenomenon.
+
+The [U.S. Chamber of Commerce Foundation writes](https://www.uschamberfoundation.org/education/bridging-the-soft-skills-gap) that these soft skills, including communication, critical thinking, collaboration, and time management, are essential in any career — regardless of the field. "The importance of these skills is widely acknowledged," the article states, "yet they are not taught with consistency or given prioritization." Except in Scouting.
+
+Every Pack meeting that a Scout is asked to lead the opening at, every campout that a Scout gets dripped on because they didn't set up their tent correctly, every service project they are asked to volunteer at — they are building soft skills. They are building character; we think it is undoubtable that today's society and today's youth need Scouting now more than ever.
+
+## Put down phone, pick up skills
+
+More than 40% of employers say they do not see the communication and teamwork undoubtedly need in survey after survey. We believe this is what you might expect since relationships of youth are primarily screen-mediated. Many Millennials and members of Gen Z seem to prefer phones to people, we've found. Scouting doesn't guilt-trip young people into putting their phones down to live in the moment. Instead, it inspires them to do so by offering experiences they won't get anywhere else.
+'
+## A paradigm shift
+
+The camping and leadership opportunities that have made the BSA such a critical part of our country for the past 100-plus years haven't changed a whole lot. What's different is the way we present those opportunities to families. We believe that the way we 'sell' Scouting to today's generation needs almost to turn itself around. In the past, parents wanted their children to go out in the woods and learn all the hard skills-building fires, tying knots, doing things on their own. Leaders always knew that in the background, they were teaching
+
+## Scouting's core values
+
+Now, though, the focus, the buy-in, are those core values — building character, self-resilience, sound decision making, etc. And we do that through things like building fires, camping, tying knots. Nothing has changed, it's just a paradigm shift. The aims of Scouting are still what parents want. They just need to be sold them more directly.
+
+If you have further questions or would like to visit us at one of our pack activities feel free to reach out on our contact page and we will get back to you right away.
+
+Yours in Scouting, Pack 248

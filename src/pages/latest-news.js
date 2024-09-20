@@ -9,8 +9,10 @@ const NewsPage = () => {
     return (
         <Layout pageTitle="News">
             <div className='m-6 w-full flex flex-row flex-wrap items-center gap-4'>
-            {AllNewsArticles()?.map((article) => (
-                <div key={article.id} className="card card-compact bg-base-100 w-96 shadow-xl">
+            {AllNewsArticles()?.map((article) => {
+                if (dayjs(article.frontmatter.date) <= Date.now()) {
+                    return (
+                        <div key={article.id} className="card card-compact bg-base-100 w-96 shadow-xl">
                     <figure>
                         <img className="rounded-t-lg"
                         src={article.frontmatter.imageurl.publicURL}
@@ -25,7 +27,10 @@ const NewsPage = () => {
                         </div>
                     </div>
                 </div>
-            ))}
+                    )
+                }
+                return null;
+            })}
             </div>
         </Layout>
     )
