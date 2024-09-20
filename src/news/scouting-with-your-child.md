@@ -33,4 +33,4 @@ What we do as parents affects only our children; what we do as Scouter's affects
 
 If you have further questions or would like to visit us at one of our pack activities feel free to reach out on our contact page and we will get back to you right away.
 
-Yours in Scouting, Pack 148
+Yours in Scouting, Pack 248

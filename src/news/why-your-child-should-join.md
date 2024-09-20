@@ -57,4 +57,4 @@ Young people need to know to be good and to do good. Few will argue with the imp
 
 If you have further questions or would like to visit us at one of our pack activities feel free to reach out on our contact page and we will get back to you right away.
 
-Yours in Scouting, Pack 141
+Yours in Scouting, Pack 248
