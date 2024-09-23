@@ -8,21 +8,23 @@ export const query = graphql`
     markdownRemark(frontmatter: { name: { eq: "Lion Den" } }) {
           frontmatter {
             name
+            pagetitle
             denleader
             denleaderemail
             assistantdenleader
             assistantdenleaderemail
-            date
+            infographicimageurl {
+              publicURL
+            }
           }
           html
         }
   }`
 
-const pageTitle = "Lion";
-const pathToInfographic = "../images/ranks/lion/lion_infographic.png";
-
 const LionPage = ({data}) => {
   const { markdownRemark } = data;
+  const pageTitle = markdownRemark.frontmatter.pagetitle;
+  const pathToInfographic = markdownRemark.frontmatter.infographicimageurl.publicURL;
 
   return (
     <Layout pageTitle={pageTitle}>
@@ -48,5 +50,11 @@ const LionPage = ({data}) => {
   )
 }
 
-export const Head = () => <title>Pack 248 - {pageTitle} Den</title>
+export const Head = ({ data }) => {
+  const { markdownRemark } = data;
+  const pageTitle = markdownRemark.frontmatter.pagetitle;
+  return (
+    <title>Pack 248 - {pageTitle} Den</title>
+  )
+}
 export default LionPage;

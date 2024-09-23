@@ -1,25 +1,30 @@
 import React from 'react';
 import Layout from '../components/layout';
 import { graphql } from 'gatsby';
+import EmailLink from '../components/emaillink';
 
 export const query = graphql`
   query {
     markdownRemark(frontmatter: { name: { eq: "Webelos Patrol" } }) {
           frontmatter {
             name
+            pagetitle
             denleader
+            denleaderemail
             assistantdenleader
-            date
+            assistantdenleaderemail
+            infographicimageurl {
+              publicURL
+            }
           }
           html
         }
   }`
 
-const pageTitle = "Webelos";
-const pathToInfographic = "../images/ranks/webelos/webelos_infographic.png";
-
 const WebelosPage = ({data}) => {
   const { markdownRemark } = data;
+  const pageTitle = markdownRemark.frontmatter.pagetitle;
+  const pathToInfographic = markdownRemark.frontmatter.infographicimageurl.publicURL;
 
   return (
     <Layout pageTitle={pageTitle}>
@@ -28,10 +33,10 @@ const WebelosPage = ({data}) => {
         <h1 className='prose-h1'>{markdownRemark.frontmatter.name}</h1>
         <div className='flex'>
           <div>
-            <h2 className='m-auto text-webelosGreen'>Den Leader: <span className='font-lg text-scoutDarkGray'>{markdownRemark.frontmatter.denleader}</span></h2>
+            <h2 className='m-auto text-webelosGreen'>Den Leader: <span className='font-lg text-scoutDarkGray'><EmailLink className='text-scoutDarkGray' personName={markdownRemark.frontmatter.denleader} personEmail={markdownRemark.frontmatter.denleaderemail}/></span></h2>
           </div>
           <div>
-            <h2 className='m-auto ml-6 text-webelosGreen'>Assistant Den Leader: <span className='font-lg text-scoutDarkGray'>{markdownRemark.frontmatter.assistantdenleader}</span></h2>
+            <h2 className='m-auto ml-6 text-webelosGreen'>Assistant Den Leader: <span className='font-lg text-scoutDarkGray'><EmailLink className='text-scoutDarkGray' personName={markdownRemark.frontmatter.assistantdenleader} personEmail={markdownRemark.frontmatter.assistantdenleaderemail}/></span></h2>
           </div>
         </div>
         <div dangerouslySetInnerHTML={{ __html: markdownRemark.html }} />
@@ -45,5 +50,11 @@ const WebelosPage = ({data}) => {
   )
 }
 
-export const Head = () => <title>Pack 248 - {pageTitle} Patrol</title>
+export const Head = ({ data }) => {
+  const { markdownRemark } = data;
+  const pageTitle = markdownRemark.frontmatter.pagetitle;
+  return (
+    <title>Pack 248 - {pageTitle} Patrol</title>
+  )
+}
 export default WebelosPage;

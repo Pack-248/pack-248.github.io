@@ -5,25 +5,26 @@ import EmailLink from '../components/emaillink'
 
 export const query = graphql`
   query {
-    markdownRemark(frontmatter: { name: { eq: "Arrow of Light Patrol" } }) {
+    markdownRemark(frontmatter: { name: { eq: "Arrow Of Light Patrol" } }) {
           frontmatter {
             name
+            pagetitle
             denleader
             denleaderemail
             assistantdenleader
             assistantdenleaderemail
-            date
+            infographicimageurl {
+              publicURL
+            }
           }
           html
         }
   }`;
 
-const pageTitle = "Arrow Of Light";
-const pathToInfographic = "../images/ranks/aol/aol_infographic.png";
-
 const AOLPage = ({ data }) => {
-
   const { markdownRemark } = data;
+  const pageTitle = "";//markdownRemark.frontmatter.pagetitle;
+  const pathToInfographic = markdownRemark.frontmatter.infographicimageurl.publicURL;
   return (
     <Layout pageTitle={pageTitle}>
       <div className='w-full h-full m-auto flex text-scoutWarmGray '>
@@ -48,5 +49,11 @@ const AOLPage = ({ data }) => {
   )
 };
 
-export const Head = () => <title>Pack 248 - {pageTitle} Patrol</title>;
+export const Head = ({ data }) => {
+  const { markdownRemark } = data;
+  const pageTitle = markdownRemark.frontmatter.pagetitle;
+  return (
+    <title>Pack 248 - {pageTitle} Patrol</title>
+  )
+}
 export default AOLPage;

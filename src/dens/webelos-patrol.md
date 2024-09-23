@@ -1,9 +1,11 @@
 ---
 name: "Webelos Patrol"
+pagetitle: "Webelos"
 denleader: "Kim Hayden"
 denleaderemail: "haydenk719@gmail.com"
 assistantdenleader: "Jaime Dreyer Laezza"
 assistantdenleaderemail: "jaime.dreyerlaezza@gmail.com"
+infographicimageurl: "../images/ranks/webelos/webelos_infographic.png"
 image: "../images/logo/webelos-badge.png"
 date: 9/16/2024
 ---

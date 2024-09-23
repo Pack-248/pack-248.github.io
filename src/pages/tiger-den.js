@@ -1,24 +1,30 @@
 import React from 'react'
 import Layout from '../components/layout'
 import { graphql } from 'gatsby';
+import EmailLink from '../components/emaillink';
 
 export const query = graphql`
   query {
     markdownRemark(frontmatter: { name: { eq: "Tiger Den" } }) {
           frontmatter {
             name
+            pagetitle
             denleader
+            denleaderemail
             assistantdenleader
-            date
+            assistantdenleaderemail
+            infographicimageurl {
+              publicURL
+            }
           }
           html
         }
   }`
-const pageTitle = "Tiger";
-const pathToInfographic = "../images/ranks/tiger/tiger_infographic.png";
 
 const TigerPage = ({data}) => {
   const { markdownRemark } = data;
+  const pageTitle = markdownRemark.frontmatter.pagetitle;
+  const pathToInfographic = markdownRemark.frontmatter.infographicimageurl.publicURL;
 
   return (
     <Layout pageTitle={pageTitle}>
@@ -27,10 +33,10 @@ const TigerPage = ({data}) => {
         <h1 className='prose-h1'>{markdownRemark.frontmatter.name}</h1>
         <div className='flex'>
           <div>
-            <h2 className='m-auto text-tigerOrange'>Den Leader: <span className='font-lg text-scoutDarkGray'>{markdownRemark.frontmatter.denleader}</span></h2>
+            <h2 className='m-auto text-tigerOrange'>Den Leader: <span className='font-lg text-scoutDarkGray'><EmailLink className='text-scoutDarkGray no-underline' personName={markdownRemark.frontmatter.denleader} personEmail={markdownRemark.frontmatter.denleaderemail}/></span></h2>
           </div>
           <div>
-            <h2 className='m-auto ml-6 text-tigerOrange'>Assistant Den Leader: <span className='font-lg text-scoutDarkGray'>{markdownRemark.frontmatter.assistantdenleader}</span></h2>
+            <h2 className='m-auto ml-6 text-tigerOrange'>Assistant Den Leader: <span className='font-lg text-scoutDarkGray'><EmailLink className='text-scoutDarkGray no-underline' personName={markdownRemark.frontmatter.assistantdenleader} personEmail={markdownRemark.frontmatter.assistantdenleaderemail}/></span></h2>
           </div>
         </div>
         <div dangerouslySetInnerHTML={{ __html: markdownRemark.html }} />
@@ -44,5 +50,11 @@ const TigerPage = ({data}) => {
   )
 }
 
-export const Head = () => <title>Pack 248 - {pageTitle} Den</title>
+export const Head = ({ data }) => {
+  const { markdownRemark } = data;
+  const pageTitle = markdownRemark.frontmatter.pagetitle;
+  return (
+    <title>Pack 248 - {pageTitle} Den</title>
+  )
+}
 export default TigerPage;

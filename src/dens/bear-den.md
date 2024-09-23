@@ -1,9 +1,11 @@
 ---
 name: "Bear Den"
+pagetitle: "Bear"
 denleader: "Justin Kozak"
 denleaderemail: "jmkozak81@gmail.com"
 assistantdenleader: "Carey Mueller"
 assistantdenleaderemail: "carey.m30@gmail.com"
+infographicimageurl: "../images/ranks/bear/bear_infographic.png"
 image: "../images/logo/bear-badge.png"
 date: 9/16/2024
 ---

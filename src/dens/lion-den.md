@@ -1,9 +1,11 @@
 ---
 name: "Lion Den"
+pagetitle: "Lion"
 denleader: "TBD"
 denleaderemail: ""
 assistantdenleader: "TBD"
 assistantdenleaderemail: ""
+infographicimageurl: "../images/ranks/lion/lion_infographic.png"
 image: "../images/logo/lion-badge.png"
 date: 9/16/2024
 ---

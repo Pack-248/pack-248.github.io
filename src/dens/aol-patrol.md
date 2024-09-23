@@ -1,9 +1,11 @@
 ---
-name: "Arrow of Light Patrol"
+name: "Arrow Of Light Patrol"
+pagetitle: "Arrow Of Light"
 denleader: "Frank Smith"
 denleaderemail: "franksmith3538@gmail.com"
 assistantdenleader: "TBD"
 assistantdenleaderemail: ""
+infographicimageurl: "../images/ranks/aol/aol_infographic.png"
 image: "../images/logo/aol-badge.png"
 date: 9/16/2024
 ---
