@@ -23,7 +23,7 @@ export const query = graphql`
 
 const AOLPage = ({ data }) => {
   const { markdownRemark } = data;
-  const pageTitle = "";//markdownRemark.frontmatter.pagetitle;
+  const pageTitle = markdownRemark.frontmatter.pagetitle;
   const pathToInfographic = markdownRemark.frontmatter.infographicimageurl.publicURL;
   return (
     <Layout pageTitle={pageTitle}>

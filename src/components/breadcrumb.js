@@ -8,7 +8,7 @@ const BreadCrumb = ({pageTitle}) => {
         case "Wolf":
         case "Bear":
         case "Webelos":
-        case "Arrow Of Light":
+        case "Arrow Of Light Patrol":
         case "Lion":
             return (
                 <div className='items-center justify-center flex flex-col gap-2'>
