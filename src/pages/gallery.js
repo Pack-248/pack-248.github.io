@@ -6,19 +6,23 @@ import 'lightgallery/css/lg-zoom.css';
 import 'lightgallery/css/lg-thumbnail.css';
 import lgThumbnail from 'lightgallery/plugins/thumbnail';
 import lgZoom from 'lightgallery/plugins/zoom';
+//import lgFade from 'lightgallery/plugins/fade';
 
 const GalleryPage = () => {
 
   const onInit = () => {
-    console.log('lightGallery has been initialized');
+    //console.log('lightGallery has been initialized');
   };
   return (
     <Layout pageTitle="Gallery">
-      <div className="App h-full m-6">
+<div className='m-6'>
           <LightGallery
+          className='m-6'
               onInit={onInit}
               speed={500}
               plugins={[lgThumbnail, lgZoom]}
+              download={false}
+              elementClassNames='flex flex-row flex-wrap space-x-4 space-y-4'
           >
               <a href='/images/gallery/gallery-00 (2).jpg'>
     <img alt='gallery-00 (2) thumbnail' src='/images/gallery/thumb/th_gallery-00 (2).jpg' />
@@ -246,10 +250,14 @@ const GalleryPage = () => {
     <img alt='gallery-96 thumbnail' src='/images/gallery/thumb/th_gallery-96.jpg' />
 </a>
           </LightGallery>
-      </div>
+          </div>
       </Layout>
   )
 }
 
-export const Head = () => <title>Pack 248 - Pack Photo Gallery</title>
+export const Head = () => {
+return (
+  <title>Pack 248 - Pack Photo Gallery</title>
+)
+}
 export default GalleryPage
