@@ -1,7 +1,9 @@
 ---
 name: "Wolf Den"
 denleader: "Jim Keller"
+denleaderemail: "jamesrkeller.bsa@gmail.com"
 assistantdenleader: "TBD"
+asistantdenleaderemail: ""
 image: "../images/logo/wolf-badge.png"
 date: 9/16/2024
 ---

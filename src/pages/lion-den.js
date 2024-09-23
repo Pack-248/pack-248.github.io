@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from '../components/layout'
 import { graphql } from 'gatsby';
+import EmailLink from '../components/emaillink';
 
 export const query = graphql`
   query {
@@ -8,7 +9,9 @@ export const query = graphql`
           frontmatter {
             name
             denleader
+            denleaderemail
             assistantdenleader
+            assistantdenleaderemail
             date
           }
           html
@@ -28,10 +31,10 @@ const LionPage = ({data}) => {
         <h1 className='prose-h1'>{markdownRemark.frontmatter.name}</h1>
         <div className='flex'>
           <div>
-            <h2 className='m-auto text-lionYellow'>Den Leader: <span className='font-lg text-scoutDarkGray'>{markdownRemark.frontmatter.denleader}</span></h2>
+            <h2 className='m-auto text-lionYellow'>Den Leader: <span className='font-lg text-scoutDarkGray'><EmailLink personName={markdownRemark.frontmatter.denleader} personEmail={markdownRemark.frontmatter.denleaderemail}/></span></h2>
           </div>
           <div>
-            <h2 className='m-auto ml-6 text-lionYellow'>Assistant Den Leader: <span className='font-lg text-scoutDarkGray'>{markdownRemark.frontmatter.assistantdenleader}</span></h2>
+            <h2 className='m-auto ml-6 text-lionYellow'>Assistant Den Leader: <span className='font-lg text-scoutDarkGray'><EmailLink personName={markdownRemark.frontmatter.assistantdenleader} personEmail={markdownRemark.frontmatter.assistantdenleaderemail}/></span></h2>
           </div>
         </div>
         <div dangerouslySetInnerHTML={{ __html: markdownRemark.html }} />

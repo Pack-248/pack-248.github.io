@@ -1,7 +1,9 @@
 ---
 name: "Webelos Patrol"
-denleader: "Kim Hayden (F), Frank Smith (M)"
-assistantdenleader: "Jaime Dreyer Laezza (F), Jason Bestard (M)"
+denleader: "Kim Hayden"
+denleaderemail: "haydenk719@gmail.com"
+assistantdenleader: "Jaime Dreyer Laezza"
+assistantdenleaderemail: "jaime.dreyerlaezza@gmail.com"
 image: "../images/logo/webelos-badge.png"
 date: 9/16/2024
 ---

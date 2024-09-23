@@ -5,6 +5,7 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { graphql } from "gatsby"
+import EmailLink from '../components/emaillink'
 
 library.add(fab);
 library.add(fas);
@@ -16,16 +17,26 @@ export const query = graphql`
             title
             location
             cubmaster
+            cubmasteremail
             assistantcubmaster
+            assistantcubmasteremail
             date
             committeechair
+            committeechairemail
             charteredorgrep
+            charteredorgrepemail
             treasurer
+            treasureremail
             recruiting
+            recruitingemail
             communications
+            communicationsemail
             advancement
+            advancementemail
             membership
+            membershipemail
             chiefpontiac
+            chiefpontiacemail
           }
           html
         }
@@ -39,13 +50,13 @@ const PackPage = ({data}) => {
     <Layout pageTitle="Pack">
     <div className='w-full h-full m-auto flex text-scoutWarmGray '>
       <div className='prose prose-base max-w-none m-6 w-4/5'>
-        <h1 className='prose-h1'>{markdownRemark.frontmatter.title} - {markdownRemark.frontmatter.location}</h1>
+      <a className='no-underline' href='mailto:pack248mi@gmail.com'><h1 className='prose-h1'>{markdownRemark.frontmatter.title} - {markdownRemark.frontmatter.location}</h1></a>
         <div className='flex'>
           <div>
-            <h2 className='m-auto text-cubScoutBlue'>Cubmaster: <span className='font-lg text-scoutDarkGray'>{markdownRemark.frontmatter.cubmaster}</span></h2>
+            <h2 className='m-auto text-cubScoutBlue'>Cubmaster: <span className='font-lg text-scoutDarkGray'><EmailLink className='text-scoutDarkGray no-underline' personName={markdownRemark.frontmatter.cubmaster} personEmail={markdownRemark.frontmatter.cubmasteremail}/></span></h2>
           </div>
           <div>
-            <h2 className='m-auto ml-6 text-cubScoutBlue'>Assistant Cubmaster: <span className='font-lg text-scoutDarkGray'>{markdownRemark.frontmatter.assistantcubmaster}</span></h2>
+            <h2 className='m-auto ml-6 text-cubScoutBlue'>Assistant Cubmaster: <span className='font-lg text-scoutDarkGray'><EmailLink className='text-scoutDarkGray no-underline' personName={markdownRemark.frontmatter.assistantcubmaster} personEmail={markdownRemark.frontmatter.assistantcubmasteremail}/></span></h2>
           </div>
         </div>
         <div dangerouslySetInnerHTML={{ __html: markdownRemark.html }} />
@@ -64,16 +75,16 @@ const PackPage = ({data}) => {
         </ul>
         <h3 className='text-2xl ml-6 text-cubScoutPaleBlue'>Leadership</h3>
         <ul>
-          <li className='list-none text-scoutTan font-bold'>Committee Chair: <br/><span className='ml-4 text-scoutLightTan font-extralight'>{markdownRemark.frontmatter.committeechair}</span></li>
-          <li className='list-none text-scoutTan font-bold'>Charted Org Rep: <br/><span className='ml-4 text-scoutLightTan font-extralight'>{markdownRemark.frontmatter.charteredorgrep}</span></li>
-          <li className='list-none text-scoutTan font-bold'>Cubmaster: <br/><span className='ml-4 text-scoutLightTan font-extralight'>{markdownRemark.frontmatter.cubmaster}</span></li>
-          <li className='list-none text-scoutTan font-bold'>Assistant Cubmaster: <br/><span className='ml-4 text-scoutLightTan font-extralight'>{markdownRemark.frontmatter.assistantcubmaster}</span></li>
-          <li className='list-none text-scoutTan font-bold'>Communications: <br/><span className='ml-4 text-scoutLightTan font-extralight'>{markdownRemark.frontmatter.communications}</span></li>
-          <li className='list-none text-scoutTan font-bold'>Treasurers: <br/><span className='ml-4 text-scoutLightTan font-extralight'>{markdownRemark.frontmatter.treasurer}</span></li>
-          <li className='list-none text-scoutTan font-bold'>Advancement: <br/><span className='ml-4 text-scoutLightTan font-extralight'>{markdownRemark.frontmatter.advancement}</span></li>
-          <li className='list-none text-scoutTan font-bold'>Membership: <br/><span className='ml-4 text-scoutLightTan font-extralight'>{markdownRemark.frontmatter.membership}</span></li>
-          <li className='list-none text-scoutTan font-bold'>Chief Pontiac Trail: <br/><span className='ml-4 text-scoutLightTan font-extralight'>{markdownRemark.frontmatter.chiefpontiac}</span></li>
-          <li className='list-none text-scoutTan font-bold'>Recruiting: <br/><span className='ml-4 text-scoutLightTan font-extralight'>{markdownRemark.frontmatter.recruiting}</span></li>
+          <li className='list-none text-scoutTan font-bold'>Committee Chair: <br/><span className='ml-4 text-scoutLightTan font-extralight'><EmailLink className='text-scoutLightTan font-extralight no-underline' personName={markdownRemark.frontmatter.committeechair} personEmail={markdownRemark.frontmatter.committeechairemail}/></span></li>
+          <li className='list-none text-scoutTan font-bold'>Charted Org Rep: <br/><span className='ml-4 text-scoutLightTan font-extralight'><EmailLink className='text-scoutLightTan font-extralight no-underline' personName={markdownRemark.frontmatter.charteredorgrep} personEmail={markdownRemark.frontmatter.charteredorgrepemail}/></span></li>
+          <li className='list-none text-scoutTan font-bold'>Cubmaster: <br/><span className='ml-4 text-scoutLightTan font-extralight'><EmailLink className='text-scoutLightTan font-extralight no-underline' personName={markdownRemark.frontmatter.cubmaster} personEmail={markdownRemark.frontmatter.cubmasteremail}/></span></li>
+          <li className='list-none text-scoutTan font-bold'>Assistant Cubmaster: <br/><span className='ml-4 text-scoutLightTan font-extralight'><EmailLink className='text-scoutLightTan font-extralight no-underline' personName={markdownRemark.frontmatter.assistantcubmaster} personEmail={markdownRemark.frontmatter.assistantcubmasteremail}/></span></li>
+          <li className='list-none text-scoutTan font-bold'>Communications: <br/><span className='ml-4 text-scoutLightTan font-extralight'><EmailLink className='text-scoutLightTan font-extralight no-underline' personName={markdownRemark.frontmatter.communications} personEmail={markdownRemark.frontmatter.communicationsemail}/></span></li>
+          <li className='list-none text-scoutTan font-bold'>Treasurers: <br/><span className='ml-4 text-scoutLightTan font-extralight no-underline'><EmailLink className='text-scoutLightTan font-extralight no-underline' personName={markdownRemark.frontmatter.treasurer} personEmail={markdownRemark.frontmatter.treasureremail}/></span></li>
+          <li className='list-none text-scoutTan font-bold'>Advancement: <br/><span className='ml-4 text-scoutLightTan font-extralight'><EmailLink className='text-scoutLightTan font-extralight no-underline' personName={markdownRemark.frontmatter.advancement} personEmail={markdownRemark.frontmatter.advancementemail}/></span></li>
+          <li className='list-none text-scoutTan font-bold'>Membership: <br/><span className='ml-4 text-scoutLightTan font-extralight'><EmailLink className='text-scoutLightTan font-extralight no-underline' personName={markdownRemark.frontmatter.membership} personEmail={markdownRemark.frontmatter.membershipemail}/></span></li>
+          <li className='list-none text-scoutTan font-bold'>Chief Pontiac Trail: <br/><span className='ml-4 text-scoutLightTan font-extralight'><EmailLink className='text-scoutLightTan font-extralight no-underline' personName={markdownRemark.frontmatter.chiefpontiac} personEmail={markdownRemark.frontmatter.chiefpontiacemail}/></span></li>
+          <li className='list-none text-scoutTan font-bold'>Recruiting: <br/><span className='ml-4 text-scoutLightTan font-extralight'><EmailLink className='text-scoutLightTan font-extralight no-underline' personName={markdownRemark.frontmatter.recruiting} personEmail={markdownRemark.frontmatter.recruitingemail}/></span></li>
         </ul>
         <h3 className='text-2xl ml-6 text-cubScoutPaleBlue'>Contact</h3>
         <ul className='mb-6'>

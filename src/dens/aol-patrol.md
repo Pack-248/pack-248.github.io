@@ -1,7 +1,9 @@
 ---
 name: "Arrow of Light Patrol"
 denleader: "Frank Smith"
+denleaderemail: "franksmith3538@gmail.com"
 assistantdenleader: "TBD"
+assistantdenleaderemail: ""
 image: "../images/logo/aol-badge.png"
 date: 9/16/2024
 ---

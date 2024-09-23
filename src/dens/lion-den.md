@@ -1,7 +1,9 @@
 ---
 name: "Lion Den"
 denleader: "TBD"
+denleaderemail: ""
 assistantdenleader: "TBD"
+assistantdenleaderemail: ""
 image: "../images/logo/lion-badge.png"
 date: 9/16/2024
 ---

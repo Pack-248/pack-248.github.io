@@ -1,7 +1,9 @@
 ---
 name: "Bear Den"
 denleader: "Justin Kozak"
+denleaderemail: "jmkozak81@gmail.com"
 assistantdenleader: "Carey Mueller"
+assistantdenleaderemail: "carey.m30@gmail.com"
 image: "../images/logo/bear-badge.png"
 date: 9/16/2024
 ---

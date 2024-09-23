@@ -1,7 +1,9 @@
 ---
 name: "Tiger Den"
 denleader: "TBD"
+denleaderemail: ""
 assistantdenleader: "TBD"
+assistantdenleaderemail: ""
 image: "../images/logo/tiger-badge.png"
 date: 9/16/2024
 ---
