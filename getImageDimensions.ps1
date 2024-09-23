@@ -21,9 +21,16 @@ foreach ($file in $imageFiles) {
     $nameWithoutExtension = $file.BaseName
 
     # Output the file name and dimensions
-    Write-Output "<a href='images/gallery/$nameWithExtension'>"
-    Write-Output "    <img alt='$nameWithoutExtension thumbnail' src='images/gallery/thumb/th_$nameWithExtension' />"
-    Write-Output "</a>"
+    # Write-Output "<a href='images/gallery/$nameWithExtension'>"
+    # Write-Output "    <img alt='$nameWithoutExtension thumbnail' src='images/gallery/thumb/th_$nameWithExtension' />"
+    # Write-Output "</a>"
+    Write-Output "{"
+    Write-Output "    src: '/images/gallery/$nameWithExtension',"
+    Write-Output "    original: '/images/gallery/$nameWithExtension',"
+    Write-Output "    width: $width,"
+    Write-Output "    height: $height,"
+    Write-Output "    caption: '$nameWithoutExtension'"
+    Write-Output "},"
 
     # Dispose of the image object to free up memory
     $image.Dispose()
