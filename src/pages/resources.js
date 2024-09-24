@@ -64,7 +64,7 @@ const ResourcesPage = () => {
           </ul>
         </div>
       </div>
-      <div className='w-full border- mx-6 flex flex-col'>
+      <div className='w-full mx-6 flex flex-col'>
         <h2 className='text-2xl font-semibold m-6'>For Both</h2>
         <ul className='mx-6 mb-6'>
           <li className='font-semibold text-scoutWarmGray'>Scouting Safely</li>
@@ -78,7 +78,7 @@ const ResourcesPage = () => {
           </ul>
         <ul className='mx-6 mb-6'>
             <li className='font-semibold text-scoutWarmGray'>Scout Management</li>
-            <hr className='border-1 border-cubScoutDarkBlue fill-cubScoutDarkBlue mx-6'/>
+            <hr className='border-1 border-cubScoutDarkBlue fill-cubScoutDarkBlue'/>
             <li className='text-cubScoutBlue mt-2'><FontAwesomeIcon icon={['fas', 'globe']}/> <a href='https://scoutbook.scouting.org/' target='_blank' rel='noreferrer'>Scoutbook</a><br/><span className='text-sm text-scoutDarkGray italic ml-6'>Our Pack uses Scoutbook to handle and track all of our scout's advancement.</span></li>
             <li className='text-cubScoutBlue'>Scouting App<br/><span className='text-sm text-scoutDarkGray italic ml-6'>App is built just for Scouts and their parents and pulls existing advancement data straight from Scoutbook.<br/><FontAwesomeIcon className='ml-6 text-cubScoutBlue' icon={['fas', 'globe']}/> <a className='text-cubScoutBlue' href='https://play.google.com/store/apps/details?id=com.bsa.sbm&pli=1' target='_blank' rel='noreferrer'>Scouting - Apps on Google Play</a><br/><FontAwesomeIcon className='ml-6 text-cubScoutBlue' icon={['fas', 'globe']}/> <a  className='text-cubScoutBlue' href='https://apps.apple.com/us/app/scouting/id1218464473' target='_blank' rel='noreferrer'>Scouting on the App Store (Apple)</a></span></li>
           </ul>
