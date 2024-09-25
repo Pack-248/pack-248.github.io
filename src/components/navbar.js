@@ -3,7 +3,6 @@ import { Link } from 'gatsby'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { StaticImage } from "gatsby-plugin-image"
 
 library.add(fab)
 
@@ -18,7 +17,6 @@ const NavBar = ({pageTitle}) => {
                         <li className='pr-8'><Link to="/pack" className='text-scoutWarmGray'>Pack</Link></li>
                         <li className='pr-8'><Link to="/calendar" className='text-scoutWarmGray'>Calendar</Link></li>
                         <li className='pr-8'><Link to="/latest-news" className='text-scoutWarmGray'>Latest News</Link></li>
-                        
                         <li className='pr-8'><Link to="/gallery" className='text-scoutWarmGray'>Gallery</Link></li>
                         <li className='pr-8'><Link to="/resources" className='text-scoutWarmGray'>Resources</Link></li>
                         <li className='pr-8'><Link to="/contact" className='text-scoutWarmGray'>Contact</Link></li>
@@ -35,7 +33,6 @@ const NavBar = ({pageTitle}) => {
                         <li className='pr-8'><Link to="/pack" className='text-scoutWarmGray font-bold'>Pack</Link></li>
                         <li className='pr-8'><Link to="/calendar" className='text-scoutWarmGray'>Calendar</Link></li>
                         <li className='pr-8'><Link to="/latest-news" className='text-scoutWarmGray'>Latest News</Link></li>
-                        
                         <li className='pr-8'><Link to="/gallery" className='text-scoutWarmGray'>Gallery</Link></li>
                         <li className='pr-8'><Link to="/resources" className='text-scoutWarmGray'>Resources</Link></li>
                         <li className='pr-8'><Link to="/contact" className='text-scoutWarmGray'>Contact</Link></li>
@@ -52,7 +49,6 @@ const NavBar = ({pageTitle}) => {
                         <li className='pr-8'><Link to="/pack" className='text-scoutWarmGray'>Pack</Link></li>
                         <li className='pr-8'><Link to="/calendar" className='text-scoutWarmGray font-bold'>Calendar</Link></li>
                         <li className='pr-8'><Link to="/latest-news" className='text-scoutWarmGray'>Latest News</Link></li>
-                        
                         <li className='pr-8'><Link to="/gallery" className='text-scoutWarmGray'>Gallery</Link></li>
                         <li className='pr-8'><Link to="/resources" className='text-scoutWarmGray'>Resources</Link></li>
                         <li className='pr-8'><Link to="/contact" className='text-scoutWarmGray'>Contact</Link></li>
@@ -69,7 +65,6 @@ const NavBar = ({pageTitle}) => {
                         <li className='pr-8'><Link to="/pack" className='text-scoutWarmGray'>Pack</Link></li>
                         <li className='pr-8'><Link to="/calendar" className='text-scoutWarmGray'>Calendar</Link></li>
                         <li className='pr-8'><Link to="/latest-news" className='text-scoutWarmGray font-bold'>Latest News</Link></li>
-                        
                         <li className='pr-8'><Link to="/gallery" className='text-scoutWarmGray'>Gallery</Link></li>
                         <li className='pr-8'><Link to="/resources" className='text-scoutWarmGray'>Resources</Link></li>
                         <li className='pr-8'><Link to="/contact" className='text-scoutWarmGray'>Contact</Link></li>
@@ -86,7 +81,6 @@ const NavBar = ({pageTitle}) => {
                         <li className='pr-8'><Link to="/pack" className='text-scoutWarmGray'>Pack</Link></li>
                         <li className='pr-8'><Link to="/calendar" className='text-scoutWarmGray'>Calendar</Link></li>
                         <li className='pr-8'><Link to="/latest-news" className='text-scoutWarmGray'>Latest News</Link></li>
-                        
                         <li className='pr-8'><Link to="/gallery" className='text-scoutWarmGray'>Gallery</Link></li>
                         <li className='pr-8'><Link to="/resources" className='text-scoutWarmGray'>Resources</Link></li>
                         <li className='pr-8'><Link to="/contact" className='text-scoutWarmGray'>Contact</Link></li>
@@ -103,7 +97,6 @@ const NavBar = ({pageTitle}) => {
                         <li className='pr-8'><Link to="/pack" className='text-scoutWarmGray'>Pack</Link></li>
                         <li className='pr-8'><Link to="/calendar" className='text-scoutWarmGray'>Calendar</Link></li>
                         <li className='pr-8'><Link to="/latest-news" className='text-scoutWarmGray'>Latest News</Link></li>
-                        
                         <li className='pr-8'><Link to="/gallery" className='text-scoutWarmGray font-bold'>Gallery</Link></li>
                         <li className='pr-8'><Link to="/resources" className='text-scoutWarmGray'>Resources</Link></li>
                         <li className='pr-8'><Link to="/contact" className='text-scoutWarmGray'>Contact</Link></li>
@@ -120,7 +113,6 @@ const NavBar = ({pageTitle}) => {
                         <li className='pr-8'><Link to="/pack" className='text-scoutWarmGray'>Pack</Link></li>
                         <li className='pr-8'><Link to="/calendar" className='text-scoutWarmGray'>Calendar</Link></li>
                         <li className='pr-8'><Link to="/latest-news" className='text-scoutWarmGray'>Latest News</Link></li>
-                        
                         <li className='pr-8'><Link to="/gallery" className='text-scoutWarmGray'>Gallery</Link></li>
                         <li className='pr-8'><Link to="/resources" className='text-scoutWarmGray font-bold'>Resources</Link></li>
                         <li className='pr-8'><Link to="/contact" className='text-scoutWarmGray'>Contact</Link></li>
@@ -137,7 +129,6 @@ const NavBar = ({pageTitle}) => {
                         <li className='pr-8'><Link to="/pack" className='text-scoutWarmGray'>Pack</Link></li>
                         <li className='pr-8'><Link to="/calendar" className='text-scoutWarmGray'>Calendar</Link></li>
                         <li className='pr-8'><Link to="/latest-news" className='text-scoutWarmGray'>Latest News</Link></li>
-                        
                         <li className='pr-8'><Link to="/gallery" className='text-scoutWarmGray'>Gallery</Link></li>
                         <li className='pr-8'><Link to="/resources" className='text-scoutWarmGray'>Resources</Link></li>
                         <li className='pr-8'><Link to="/contact" className='text-scoutWarmGray font-bold'>Contact</Link></li>
@@ -154,7 +145,6 @@ const NavBar = ({pageTitle}) => {
                         <li className='pr-8'><Link to="/pack" className='text-scoutWarmGray'>Pack</Link></li>
                         <li className='pr-8'><Link to="/calendar" className='text-scoutWarmGray'>Calendar</Link></li>
                         <li className='pr-8'><Link to="/latest-news" className='text-scoutWarmGray'>Latest News</Link></li>
-                        
                         <li className='pr-8'><Link to="/gallery" className='text-scoutWarmGray'>Gallery</Link></li>
                         <li className='pr-8'><Link to="/resources" className='text-scoutWarmGray'>Resources</Link></li>
                         <li className='pr-8'><Link to="/contact" className='text-scoutWarmGray'>Contact</Link></li>
