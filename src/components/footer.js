@@ -44,7 +44,7 @@ const Footer = ({pageTitle}) => {
                             </nav>
                             <nav className='grid grid-cols-1 grid-rows-5'>
                                 <h6 className='mb-2 font-bold uppercase opacity-60'>Information</h6>
-                                <Link className='cursor-pointer no-underline' to="/about">About us</Link>
+                                <Link className='cursor-pointer no-underline' to="/pack">About the Pack</Link>
                                 <Link className='cursor-pointer no-underline' to="/contact">Contact</Link>
                                 <Link className='cursor-pointer no-underline' to="/resources">Resources</Link>
                                 <Link className='cursor-pointer no-underline' to="/latest-news">Latest News</Link>
