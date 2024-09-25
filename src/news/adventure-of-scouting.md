@@ -2,7 +2,7 @@
 title: "The Adventure of Scouting"
 author: "Steve Kaschiner, Assistant Cubmaster"
 date: 9/24/2024
-imageurl: "../images/news/funwithpurpose.jpg"
+imageurl: "../images/news/adventure-of-scouting.png"
 type: "News"
 ---
 Learning by doing is a hallmark of outdoor education. Unit meetings offer information and knowledge used on outdoor adventures. A leader may describe and demonstrate a Scouting skill at a meeting, but the way Scouts truly learn an outdoor skill is to do it themselves on a unit outing.

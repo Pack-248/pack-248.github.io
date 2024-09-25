@@ -24,6 +24,7 @@ const ResourcesPage = () => {
             <li className='text-cubScoutBlue'><FontAwesomeIcon icon={['fas', 'globe']}/> <a href='https://www.scouting.org/programs/cub-scouts/cub-scout-uniform/' target='_blank' rel='noreferrer'>Uniform Insignia</a><br/><span className='text-sm text-scoutDarkGray italic ml-6'>Guide to uniform patches and placement</span></li>
             <li className='text-cubScoutBlue'><FontAwesomeIcon icon={['fas', 'globe']}/> <a href='https://boyslife.org/' target='_blank' rel='noreferrer'>Scout Life Magazine Website</a></li>
             <li className='text-cubScoutBlue'><FontAwesomeIcon icon={['fas', 'globe']}/> <a href='https://scoutingmagazine.org/' target='_blank' rel='noreferrer'>Scouting Magazine Website</a></li>
+            <li className='text-cubScoutBlue'><FontAwesomeIcon icon={['fas', 'file']}/> <a href='https://filestore.scouting.org/filestore/CubScoutMeetingGuide/PDF/Appendix/34362.pdf' target='_blank' rel='noreferrer'>Family Talent Survey</a><br/><span className='text-sm text-scoutDarkGray italic ml-6'>Print it out. Fill it in. Bring it back to us at a Pack Meeting.</span></li>
             <li className='text-cubScoutBlue'><FontAwesomeIcon icon={['fas', 'folder']}/> <a href='https://drive.google.com/drive/folders/1HUli1anmDRvYQ_p4HjDKg6pMhmmsZMWv?usp=drive_link' target='_blank' rel='noreferrer'>Pack 248 Parent Google Drive</a></li>
           </ul>
           <ul className='mx-6 mb-6'>
@@ -32,6 +33,11 @@ const ResourcesPage = () => {
             <li className='text-cubScoutBlue mt-2'><FontAwesomeIcon icon={['fas', 'file']}/> <a href='https://filestore.scouting.org/filestore/pdf/524-501.pdf' target='_blank' rel='noreferrer'>Application - Adult</a><br/><span className='text-sm text-scoutDarkGray italic ml-6'>Application form for Adult Leader</span></li>
             <li className='text-cubScoutBlue'><FontAwesomeIcon icon={['fas', 'file']}/> <a href='https://filestore.scouting.org/filestore/pdf/524-406.pdf' target='_blank' rel='noreferrer'>Application - Youth</a><br/><span className='text-sm text-scoutDarkGray italic ml-6'>Application form for Cub Scouts</span></li>
             <li className='text-cubScoutBlue'><FontAwesomeIcon icon={['fas', 'globe']}/> <a href='https://michiganscouting.org/trial-membership/' target='_blank' rel='noreferrer'>Cub Scout Trial Membership</a><br/><span className='text-scoutDarkGray ml-6 italic text-sm'>We have options that will allow you and your youth the ability to learn how amazing the Cub Scout program can be</span></li>
+          </ul>
+          <ul className='mx-6 mb-6'>
+            <li className='font-semibold text-scoutWarmGray'>Fundraising</li>
+            <hr className='border-1 border-cubScoutDarkBlue fill-cubScoutDarkBlue'/>
+            <li className='text-cubScoutBlue mt-2'>Coming Soon!</li>
           </ul>
         </div>
         <div id='rightSide' className='w-1/2 flex flex-col'>
@@ -48,11 +54,17 @@ const ResourcesPage = () => {
             <li className='font-semibold text-scoutWarmGray'>Den Info</li>
             <hr className='border-1 border-cubScoutDarkBlue fill-cubScoutDarkBlue'/>
             <li className='text-cubScoutBlue mt-2'><FontAwesomeIcon icon={['fas', 'globe']}/> <a href='https://www.scouting.org/programs/cub-scouts/den-meeting-resources/lion-resources/' target='_blank' rel='noreferrer'>Lion Resources</a></li>
+            <li className='text-cubScoutBlue'><FontAwesomeIcon icon={['fas', 'video']}/> <a href='https://vimeo.com/1012184536' target='_blank' rel='noreferrer'>Lion Overview Video</a></li>
             <li className='text-cubScoutBlue'><FontAwesomeIcon icon={['fas', 'globe']}/> <a href='https://www.scouting.org/programs/cub-scouts/den-meeting-resources/tiger-resources/' target='_blank' rel='noreferrer'>Tiger Resources</a></li>
+            <li className='text-cubScoutBlue'><FontAwesomeIcon icon={['fas', 'video']}/> <a href='https://vimeo.com/1012187134' target='_blank' rel='noreferrer'>Tiger Overview Video</a></li>
             <li className='text-cubScoutBlue'><FontAwesomeIcon icon={['fas', 'globe']}/> <a href='https://www.scouting.org/programs/cub-scouts/den-meeting-resources/wolf-resources/' target='_blank' rel='noreferrer'>Wolf Resources</a></li>
+            <li className='text-cubScoutBlue'><FontAwesomeIcon icon={['fas', 'video']}/> <a href='https://vimeo.com/1012193295' target='_blank' rel='noreferrer'>Wolf Overview Video</a></li>
             <li className='text-cubScoutBlue'><FontAwesomeIcon icon={['fas', 'globe']}/> <a href='https://www.scouting.org/programs/cub-scouts/den-meeting-resources/bear-resources/' target='_blank' rel='noreferrer'>Bear Resources</a></li>
+            <li className='text-cubScoutBlue'><FontAwesomeIcon icon={['fas', 'video']}/> <a href='https://vimeo.com/1012178260' target='_blank' rel='noreferrer'>Bear Overview Video</a></li>
             <li className='text-cubScoutBlue'><FontAwesomeIcon icon={['fas', 'globe']}/> <a href='https://www.scouting.org/programs/cub-scouts/den-meeting-resources/webelos-resources/' target='_blank' rel='noreferrer'>Webelos Resources</a></li>
+            <li className='text-cubScoutBlue'><FontAwesomeIcon icon={['fas', 'video']}/> <a href='https://vimeo.com/1012190542' target='_blank' rel='noreferrer'>Webelos Overview Video</a></li>
             <li className='text-cubScoutBlue'><FontAwesomeIcon icon={['fas', 'globe']}/> <a href='https://www.scouting.org/programs/cub-scouts/den-meeting-resources/aol-den-leader-resources/' target='_blank' rel='noreferrer'>Arrow of Light Resources</a></li>
+            <li className='text-cubScoutBlue'><FontAwesomeIcon icon={['fas', 'video']}/> <a href='https://vimeo.com/1012173742' target='_blank' rel='noreferrer'>Arrow of Light Overview Video</a></li>
             <li className='text-cubScoutBlue'><FontAwesomeIcon icon={['fas', 'globe']}/> <a href='https://www.scouting.org/programs/cub-scouts/den-meeting-resources/den-leader-tips-tricks-video-series/' target='_blank' rel='noreferrer'>Den Leader Tips and Tricks Videos</a></li>
             <li className='text-cubScoutBlue'><FontAwesomeIcon icon={['fas', 'globe']}/> <a href='https://advancements.scouting.org/' target='_blank' rel='noreferrer'>Internet Advancement</a></li>
             <li className='text-cubScoutBlue'><FontAwesomeIcon icon={['fas', 'folder']}/> <a href='https://drive.google.com/drive/folders/1u5N-Nq0uvRWmyTqAHXmAxCHf4S0iPtfe?usp=drive_link' target='_blank' rel='noreferrer'>Pack 248 Leader Google Drive</a></li>
