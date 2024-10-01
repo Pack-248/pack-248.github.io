@@ -32,22 +32,22 @@ const UpcomingEvents = ({pageTitle}) => {
         }, [apiKey,calendarID]);
 
     return (
-        <section className=" py-4 h-auto w-full">
-            <section className="container max-w-max flex flex-col items-center px-8 mx-auto sm:px-0 w-full">
+        <section className="w-full h-auto py-4 ">
+            <section className="container flex flex-col items-center w-full px-8 mx-auto max-w-max sm:px-0">
                 <h2 className="mb-4 text-2xl font-semibold text-start"><FontAwesomeIcon icon={faCalendar} className='h-8 pr-4'/>Upcoming Events</h2>
                 <ul className="flex flex-col w-full space-y-4">
                     {events?.map((event) => (
-                        <li key={event.id} className="p-4 bg-white rounded-lg">
-                            <div className="flex items-center flex-1 mb-4 select-none sm:mb-0">
-                                <div className="flex flex-col bg-cubScoutBlue rounded-xl w-1/4 w-min-1/4 w-max-1/4 p-4 text-center mr-4 border-2 border-cubScoutGold">
+                        <li key={event.id} className="justify-center p-4 bg-white rounded-lg ">
+                            <div className="flex items-center flex-1 w-auto mb-4 select-none sm:mb-0">
+                                <div className="flex flex-col w-auto p-4 mr-4 text-center border-2 bg-cubScoutBlue rounded-xl md:w-1/4 w-min-1/4 w-max-1/4 border-cubScoutGold">
                                     <p className="w-full text-xs font-medium text-cubScoutGold">{ event.start.dateTime ? dayjs(event.start.dateTime).format("MM/DD/YYYY") : dayjs(event.start.date).format("MM/DD/YYYY") }</p>
                                     <p className="w-full text-2xl font-semibold text-cubScoutGold">{event.start.dateTime ? dayjs(event.start.dateTime).format("h:mm A") : "Multi-Day" }</p>
                                 </div>
-                                <div className="flex-1 hidden  sm:block">
-                                    <h1 className="mb-2 font-semibold text-xl"> <a href={event.htmlLink} target='_blank' rel='noreferrer'>{ event.summary }</a> </h1>
-                                    <h2 className="mb-2 font-light text-lg">{ event.location }</h2>
+                                <div className="flex-1 hidden sm:block">
+                                    <h1 className="mb-2 text-xl font-semibold"> <a href={event.htmlLink} target='_blank' rel='noreferrer'>{ event.summary }</a> </h1>
+                                    <h2 className="mb-2 text-lg font-light">{ event.location }</h2>
                                 </div>
-                                <div className="flex flex-row justify-center items-center hover:bg-gray-900 rounded-xl px-4 py-2.5 group">
+                                <div className="flex flex-row justify-center items-center hover:bg-gray-900 rounded-xl py-2 md:px-4 md:py-2.5">
                                     <AddToCalendarButton
                                         name={event.summary}
                                         options={['Apple','Google','iCal','Microsoft365','MicrosoftTeams','Outlook.com','Yahoo']}
@@ -70,9 +70,9 @@ const UpcomingEvents = ({pageTitle}) => {
                                         ></AddToCalendarButton>
                                 </div>
                             </div>
-                            <div className="flex-1 pl-1 w-min-3/4 w-max-3/4 sm:hidden">
-                                <h1 className="mb-2 font-semibold"> {event.summary} </h1>
-                                <p className="text-sm">{ event.description }</p>
+                            <div className="flex-1 w-auto pl-1 md:hidden md:w-min-3/4 md:w-max-3/4">
+                                <h1 className="mb-2 text-lg font-semibold"> <a href={event.htmlLink} target='_blank' rel='noreferrer'>{ event.summary }</a> </h1>
+                                <h2 className="mb-2 text-sm font-light">{ event.location }</h2>
                             </div>
                         </li>
                     ))}

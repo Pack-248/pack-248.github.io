@@ -27,8 +27,8 @@ const AOLPage = ({ data }) => {
   const pathToInfographic = markdownRemark.frontmatter.infographicimageurl.publicURL;
   return (
     <Layout pageTitle={pageTitle}>
-      <div className='w-full h-full m-auto flex text-scoutWarmGray '>
-      <div className='prose prose-base max-w-none m-6 w-4/5'>
+      <div className='flex w-full h-full m-auto text-scoutWarmGray '>
+      <div className='w-4/5 m-6 prose prose-base max-w-none'>
         <h1 className='prose-h1'>{markdownRemark.frontmatter.name}</h1>
         <div className='flex'>
           <div>
@@ -41,7 +41,7 @@ const AOLPage = ({ data }) => {
         <div dangerouslySetInnerHTML={{ __html: markdownRemark.html }} />
         <p>Content correct as of {markdownRemark.frontmatter.date}</p>
       </div>
-      <div className='prose prose-base rounded-lg text-center m-6 bg-aolKhaki'>
+      <div className='hidden md:block md:rounded-lg md:text-center md:m-6 md:prose md:prose-base md:bg-aolKhaki'>
         <img src={pathToInfographic} className='rounded-lg w-80' alt={pageTitle + ' Rank At a Glance'} />
       </div>
     </div>
