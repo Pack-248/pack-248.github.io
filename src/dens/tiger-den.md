@@ -7,7 +7,7 @@ assistantdenleader: "TBD"
 assistantdenleaderemail: ""
 infographicimageurl: "../images/ranks/tiger/tiger_infographic.png"
 image: "../images/logo/tiger-badge.png"
-date: 9/16/2024
+date: "9/18/2024"
 ---
 ## Welcome to the Tiger Den!
 

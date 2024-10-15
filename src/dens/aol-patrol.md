@@ -7,7 +7,7 @@ assistantdenleader: "TBD"
 assistantdenleaderemail: ""
 infographicimageurl: "../images/ranks/aol/aol_infographic.png"
 image: "../images/logo/aol-badge.png"
-date: 9/16/2024
+date: "9/18/2024"
 ---
 ## Welcome to the Arrow of Light Patrol!
 

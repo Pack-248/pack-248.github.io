@@ -7,7 +7,7 @@ assistantdenleader: "Carey Mueller"
 assistantdenleaderemail: "carey.m30@gmail.com"
 infographicimageurl: "../images/ranks/bear/bear_infographic.png"
 image: "../images/logo/bear-badge.png"
-date: 9/16/2024
+date: "9/18/2024"
 ---
 ## Welcome to the Bear Den!
 

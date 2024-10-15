@@ -5,7 +5,7 @@ const RecruitingPage = () => {
     return (
         <Layout pageTitle="Recruiting">
              <div className='prose prose-base m-6 max-w-none'>
-                <div id='background' className='h-48 bg-cover md:bg-center md:h-96 rounded-lg'  style={{backgroundImage: `url('../images/misc/recruiting-web-banner.jpg')`,}}>
+                <div id='background' className='h-48 bg-cover md:bg-center md:h-[450px] rounded-lg'  style={{backgroundImage: `url('../images/misc/recruiting-web-banner.jpg')`,}}>
                     <div className='h-full flex flex-col justify-center items-center'>
                     </div>
                 </div>

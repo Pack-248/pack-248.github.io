@@ -1,7 +1,8 @@
 import React from 'react';
 import Layout from '../components/layout';
 import { graphql } from 'gatsby';
-import EmailLink from '../components/emaillink'
+import EmailLink from '../components/emaillink';
+import DenCalendar from '../components/dencalendar';
 
 export const query = graphql`
   query {
@@ -39,6 +40,7 @@ const AOLPage = ({ data }) => {
           </div>
         </div>
         <div dangerouslySetInnerHTML={{ __html: markdownRemark.html }} />
+        <DenCalendar pageTitle={pageTitle}/>
         <p>Content correct as of {markdownRemark.frontmatter.date}</p>
       </div>
       <div className='hidden md:block md:rounded-lg md:text-center md:m-6 md:prose md:prose-base md:bg-aolKhaki'>
