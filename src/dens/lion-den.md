@@ -1,8 +1,8 @@
 ---
 name: "Lion Den"
 pagetitle: "Lion"
-denleader: "TBD"
-denleaderemail: ""
+denleader: "Steve Kaschimer"
+denleaderemail: "skaschimer@hotmail.com"
 assistantdenleader: "TBD"
 assistantdenleaderemail: ""
 infographicimageurl: "../images/ranks/lion/lion_infographic.png"
