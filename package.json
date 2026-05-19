@@ -30,13 +30,13 @@
     "@tailwindcss/typography": "^0.5.15",
     "add-to-calendar-button-react": "^2.6.19",
     "autoprefixer": "^10.4.20",
-    "axios": "^1.7.7",
+    "axios": "^1.16.1",
     "crypto-browserify": "^3.12.0",
     "dayjs": "^1.11.13",
     "dotenv": "^16.4.5",
     "fs": "^0.0.1-security",
     "gapi-script": "^1.2.0",
-    "gatsby": "^5.13.7",
+    "gatsby": "^5.16.1",
     "gatsby-plugin-google-gtag": "^5.13.1",
     "gatsby-plugin-image": "^3.13.1",
     "gatsby-plugin-manifest": "^5.13.1",
@@ -54,7 +54,7 @@
     "os": "^0.1.2",
     "path": "^0.12.7",
     "polyfills": "^2.1.1",
-    "postcss": "^8.4.45",
+    "postcss": "^8.5.10",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-grid-gallery": "^1.0.1",
@@ -71,6 +71,6 @@
   },
   "devDependencies": {
     "gray-matter": "^4.0.3",
-    "react-email": "3.0.1"
+    "react-email": "6.1.5"
   }
 }
