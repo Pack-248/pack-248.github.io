@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkcub_scout_pack_248=self.webpackChunkcub_scout_pack_248||[]).push([[623],{9457:function(e,t,c){c.r(t),c.d(t,{Head:function(){return n}});var a=c(6540),u=c(9325);const n=()=>a.createElement("title",null,"Pack 248 - Pack News");t.default=({data:e})=>a.createElement(u.A,{pageTitle:"Article"})}}]);
+//# sourceMappingURL=component---src-pages-article-js-fc4aa6a10484218dba97.js.map
