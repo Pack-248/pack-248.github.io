@@ -1,6 +1,6 @@
 ---
 title: "Scouting With Your Child"
-author: "Steve Kaschimer, Assistant Cubmaster"
+author: "Steve Kaschimer"
 date: 2024-09-20
 imageurl: "../images/news/2021-08-13_23-34-12_1628912063.webp"
 type: "News"

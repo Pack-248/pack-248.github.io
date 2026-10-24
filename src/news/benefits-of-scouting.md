@@ -1,6 +1,6 @@
 ---
 title: "What Benefits does Scouting Offer Your Child?"
-author: "Steve Kaschimer, Assistant Cubmaster"
+author: "Steve Kaschimer"
 date: 9/21/2024
 imageurl: "../images/news/next-gen-scouting-21-1_1628646296.webp"
 type: "News"

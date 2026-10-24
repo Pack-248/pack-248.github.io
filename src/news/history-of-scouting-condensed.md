@@ -1,6 +1,6 @@
 ---
 title: "The Journey of Scouting"
-author: "Steve Kaschimer, Assistant Cubmaster"
+author: "Steve Kaschimer"
 date: 9/26/2024
 imageurl: "../images/news/history-of-scouting.png"
 type: "News"

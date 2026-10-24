@@ -1,6 +1,6 @@
 ---
 title: "Cub Scouts is helping close today’s ‘soft-skills gap’ in young children"
-author: "Steve Kaschimer, Assistant Coubmaster"
+author: "Steve Kaschimer"
 date: 9/23/2024
 imageurl: "../images/news/rubiks-kid.webp"
 type: "News"

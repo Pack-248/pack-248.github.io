@@ -1,6 +1,6 @@
 ---
 title: "The Adventure of Scouting"
-author: "Steve Kaschiner, Assistant Cubmaster"
+author: "Steve Kaschiner"
 date: 9/24/2024
 imageurl: "../images/news/adventure-of-scouting.png"
 type: "News"

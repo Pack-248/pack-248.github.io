@@ -1,6 +1,6 @@
 ---
 title: "Five Groups Who Benefit From The Scouting America's Superb Cub Scout STEM Programs."
-author: "Steve Kaschiner, Assistant Cubmaster"
+author: "Steve Kaschiner"
 date: 9/22/2024
 imageurl: "../images/news/stem-scouts.webp"
 type: "News"

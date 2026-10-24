@@ -1,8 +1,8 @@
 ---
 name: "Arrow Of Light Patrol"
 pagetitle: "Arrow Of Light"
-denleader: "Frank Smith"
-denleaderemail: "franksmith3538@gmail.com"
+denleader: "Justin Kozak"
+denleaderemail: "jmkozak81@gmail.com"
 assistantdenleader: "TBD"
 assistantdenleaderemail: ""
 infographicimageurl: "../images/ranks/aol/aol_infographic.png"

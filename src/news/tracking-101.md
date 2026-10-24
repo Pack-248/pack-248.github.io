@@ -1,6 +1,6 @@
 ---
 title: "The Basics of Tracking Wildlife"
-author: "Steve Kaschimer, Assistant Cubmaster"
+author: "Steve Kaschimer"
 date: 9/26/2024
 imageurl: "../images/news/tracking-101.png"
 type: "News"

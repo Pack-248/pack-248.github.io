@@ -1,6 +1,6 @@
 ---
 title: "Why your kids should join cub scouts."
-author: "Steve Kaschimer, Assistant Cubmaster"
+author: "Steve Kaschimer"
 date: 9/22/2024
 imageurl: "../images/news/cub-scout-salute.jpg"
 type: "News"

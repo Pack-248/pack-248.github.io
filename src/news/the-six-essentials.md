@@ -1,6 +1,6 @@
 ---
 title: "The 6 Essentials for Every Cub Scout Adventure"
-author: "Steve Kaschimer, Assistant Cubmaster"
+author: "Steve Kaschimer"
 date: 9/25/2024
 imageurl: "../images/news/6-essentials.png"
 type: "News"

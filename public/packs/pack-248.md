@@ -2,17 +2,17 @@
 title: "Pack 248"
 location: "Clinton Township, MI"
 image: "../images/logo/Pack 248 Logo-gh.png"
-cubmaster: "Jason Bestard"
-assistantcubmaster: "Steve Kaschimer"
-date: 9/18/2024
-committeechair: "Kim Hayden"
-charteredorgrep: "Cindy Bestard"
-treasurer: "Cindy Bestard, Glenn Hayden"
+cubmaster: "Kyle Thomason"
+assistantcubmaster: "TBD"
+date: 10/24/2026
+committeechair: "TBD"
+charteredorgrep: Cindy Bestard"
+treasurer: "Cindy Bestard"
 recruiting: "TBD"
 communications: "TBD"
 advancement: "TBD"
 membership: "TBD"
-chiefpontiac: "Kim Hayden"
+chiefpontiac: "TBD"
 ---
 
 Pack 248 is a vibrant and active family Cub Scout unit located in Clinton Township, Michigan. Dedicated to fostering the values of Scouting, Pack 248 provides a supportive and engaging environment for boys and girls in grades K-5. The pack is known for its commitment to community service, outdoor adventures, and developing leadership skills among its members.

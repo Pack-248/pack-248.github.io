@@ -1,8 +1,8 @@
 ---
 name: "Wolf Den"
 pagetitle: "Wolf"
-denleader: "TBD"
-denleaderemail: ""
+denleader: "Kyle Thomason"
+denleaderemail: "kylerayt1999@gmail.com"
 assistantdenleader: "TBD"
 asistantdenleaderemail: ""
 infographicimageurl: "../images/ranks/wolf/wolf_infographic.png"
